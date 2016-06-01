@@ -2,15 +2,15 @@ require "socket"
 
 module Battleship
   module Util
-    PLAYER_METHODS = [:name, :new_game, :take_turn]
+    PLAYER_METHODS = [:name, :new_game, :take_turn].sort
 
     def find_player_classes
-      Module.constants.
+      Object.constants.
         select { |sym| sym.to_s =~ /Player$/ }.
-        map    { |sym| Module.const_get(sym) }.
+        map    { |sym| Object.const_get(sym) }.
         select { |klass|
           methods = klass.instance_methods.collect { |m| m.to_sym }
-          (methods & PLAYER_METHODS) == PLAYER_METHODS
+          (methods & PLAYER_METHODS).sort == PLAYER_METHODS
         }
     end
 

@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 $:.unshift File.expand_path("../../lib", __FILE__)
 require "battleship/game"
 require "battleship/console_renderer"
@@ -81,7 +82,6 @@ begin
   end
 
   players.each &:kill
-
 rescue Exception => e
   $stderr = STDERR
   raise e
