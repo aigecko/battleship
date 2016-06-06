@@ -51,7 +51,7 @@ end
 
 lambda{ |path, port, secret|
   $:.unshift File.join(File.dirname(path), "lib")
-  load path
+  require_relative "../"+path
 
   Battleship::ValidatingServer.new(
     secret, Battleship::PlayerServer.new, port
