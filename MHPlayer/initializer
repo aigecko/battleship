@@ -1,0 +1,17 @@
+#!/usr/bin/ruby
+def init(node,depth)
+  table={
+    :+ => 2,
+    :~ => 1,
+    :* => 2
+  }
+  depth==0 and return rand(10)
+  op=table.keys.shuffle.first
+  node<<op
+  table[op].times{
+    node<<init([],depth-1)
+  }
+  return node
+end
+init(tree=[],3)
+p tree
