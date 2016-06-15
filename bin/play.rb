@@ -8,7 +8,7 @@ require "digest/sha1"
 require "forwardable"
 require "drb"
 
-DELAY = 0.2
+DELAY = 0
 PORT = 4432
 
 class PlayerClient
@@ -53,19 +53,19 @@ begin
 
     game = Battleship::Game.new(10, [2, 3, 3, 4, 5], *players)
     renderer = Battleship::DeluxeConsoleRenderer.new
-    $stdout << renderer.render(game)
-    $stdout << stderr
+    ARGV[2] or $stdout << renderer.render(game)
+    ARGV[2] or $stdout << stderr
 
     until game.winner
       t0 = Time.now
       game.tick
       time_taken = Time.now - t0
-      $stdout << renderer.render(game)
+      ARGV[2] or $stdout << renderer.render(game)
       $stdout << stderr
       sleep [DELAY - time_taken, 0].max
     end
 
-    puts "", "#{game.winner.name} won round #{i+1}!"
+    puts "#{game.winner.name} won round #{i+1}!"
 
     winners << game.winner.name
 

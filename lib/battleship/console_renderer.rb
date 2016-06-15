@@ -16,7 +16,7 @@ module Battleship
       output << RESET
       2.times.each do |i|
         render_player(output, names[i], report[i], ships[i])
-        output.puts if i == 0
+        ARGV[2] or output.puts if i == 0
       end
 
       buffer
@@ -43,6 +43,7 @@ module Battleship
     end
 
     def render_player(output, name, board, remaining)
+      ARGV[2] and return
       output.puts name, ""
 
       board.zip(remaining) do |row, ship|
