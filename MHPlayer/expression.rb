@@ -31,7 +31,7 @@ end
 class S
   @@output={
     :A=>->(a){"(p+=#{a.inspect})"},
-    :H=>->(a,b,c){"((isHit?(#{a.inspect})?#{b.inspect}:#{c.inspect})"},
+    :H=>->(a,b,c){"((isHit.(#{a.inspect}))?#{b.inspect}:#{c.inspect})"},
     :R=>->(a,*l){a.inspect}
   }
   @@arg={

@@ -1,20 +1,80 @@
 #!/usr/bin/ruby
 require_relative "expression"
-def init(node,depth)
-  table={
-    :+ => 2,
-    :~ => 1,
-    :* => 2
-  }
-  depth==0 and return rand(10)
-  op=table.keys.shuffle.first
-  node<<op
-  table[op].times{
-    node<<init([],depth-1)
-  }
-  return node
+require "pp"
+def ships(map,used,list)
+  list.empty?  and return
+  len=list.pop
+  over=false
+  while(!over)
+    reset=false
+    dir=rand(2)
+    x=rand(10)
+    y=rand(10)
+    if dir==1
+      dir=:across
+      len.times{|n|
+        if used.include?([x+n,y])||x+n>9
+          reset=true
+          break
+        end
+      }
+      reset and next
+      map<<[x,y,len,dir]
+      3.times{|n|
+        used<<[x-1,y+1-n]
+        used<<[x+1,y+1-n]
+      }
+      len.times{|n|
+        used<<[x+n,y]
+        used<<[x+n,y-1]
+        used<<[x+n,y+1]
+      }
+      over=true
+    else
+      dir=:down
+      len.times{|n|
+        if used.include?([x,y+n])||y+n>9
+          reset=true 
+          break
+        end
+      }
+      reset and next
+      map<<[x,y,len,dir]
+      3.times{|n|
+        used<<[x+1-n,y-1]
+        used<<[x+1-n,y+1]
+      }
+      len.times{|n|
+        used<<[x-1,y+n]
+        used<<[x,y+n]
+        used<<[x+1,y+n]
+      }
+      over=true
+    end
+    ships(map,used,list)
+  end
 end
-#init(tree=[],3)
-S.init(tree=S.new(:R),3)
-p tree
-p Marshal.load(Marshal.dump(tree))
+1.times{|n|
+  S.init(tree=S.new(:R),3)
+
+  file=open("../players/init%d.rb"%(n+1),"w")
+  file.puts "class MH#{n+1}Player"
+  file.puts "  def name; 'MH#{n+1}Player' ;end"
+  file.puts "  def new_game"
+  @p=P.new(0,0)
+
+  ships(map=[],[],[2,3,4,4,5])
+  $stdout=file
+  pp(map)<<"\n"
+  
+  file.puts "  end"
+  file.puts "  def take_turn(state,ships_remaining)"
+  file.puts "    isHit=->(p){state[p.a][p.b]==:hit}"
+  file.print "    p=@p\n    "
+  file.puts tree.inspect
+  file.puts "    (@p=p).to_a"
+  file.puts "  end"
+  file.puts "end"
+  file.puts "__END__"
+  file.puts Marshal.dump(tree)
+}
