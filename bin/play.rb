@@ -65,7 +65,7 @@ begin
       sleep [DELAY - time_taken, 0].max
     end
 
-    puts "#{game.winner.name} won round #{i+1}!"
+    puts "#{game.winner.name}"
 
     winners << game.winner.name
 
@@ -76,8 +76,7 @@ begin
     players.reverse!
   end
 
-  puts
-  winners.each_with_index do |name, i|
+  ARGV[2] or winners.each_with_index do |name, i|
     puts "Round #{i+1}. #{name}"
   end
 
