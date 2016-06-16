@@ -1,11 +1,15 @@
 #!/usr/bin/python
 
-import glob
 import sys
 import os
 import random
 
 GENERATION_COUNT = 2
+
+class CompeteTask:
+    def __init__(pid, port):
+        self.pid = pid
+        self.port = port
 
 def tournament(population, tournament_size):
     mating_pool = []
@@ -20,16 +24,30 @@ def tournament(population, tournament_size):
     return mating_pool
 
 def competition(*contestants):
-    print("./bin/play.rb " + name(contestants[0]) + ' ' + name(contestants[1]))
+    pid = os.fork()
+    if pid == 0:
+        print("./bin/play.rb", "./play.rb ", name(contestants[0]), ' ', name(contestants[1]), '0')
+        os.execl("./bin/play.rb", "./play.rb", name(contestants[0]), name(contestants[1]), '0')
+    else:
+        os.waitpid(pid, 0)
     return contestants[0]
 
 def mate(mating_pool):
     offspring = []
+    wait_list = []
     for pair in mating_pool:
         offspring1 = new_idx()
         offspring2 = new_idx()
-        print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2))
+        pid = os.fork()
+        if pid == 0:
+            print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2))
+            os.execl('./crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2))
+        else:
+            wait_list.append(pid)
         offspring.extend([offspring1, offspring2])
+    while len(wait_list) != 0:
+        pid = os.wait()[0]
+        wait_list.remove(pid)
     return offspring
 
 
