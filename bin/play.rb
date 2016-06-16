@@ -9,7 +9,7 @@ require "forwardable"
 require "drb"
 
 DELAY = 0
-PORT = 4432
+PORT = ARGV[3] ? ARGV[3].to_i : 4432
 
 class PlayerClient
   extend Forwardable
