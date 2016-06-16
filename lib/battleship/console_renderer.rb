@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require "stringio"
-require "colored"
+#require "colored"
 
 module Battleship
   class ConsoleRenderer
@@ -57,8 +57,8 @@ module Battleship
 
     ICONS = {
       :unknown => "· ",
-      :hit     => "█▉".red,
-      :miss    => "▒▒".cyan
+      :hit     => "█▉",
+      :miss    => "▒▒"
     }
 
   private
