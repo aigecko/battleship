@@ -18,5 +18,5 @@ s2=Marshal.load(
 s1.flatten.reject{|s| s.op==:R }.shuffle.first.swap(
   s2.flatten.reject{|s| s.op==:R}.shuffle.first)
 
-s1.write(out1,ARGV[2].to_i)
-s2.write(out2,ARGV[3].to_i)
+s1.write(out1,ARGV[2].to_i-1)
+s2.write(out2,ARGV[3].to_i-1)
