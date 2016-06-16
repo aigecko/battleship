@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+=begin
 class P
   attr_reader :pair
   def +(other)
@@ -43,15 +44,17 @@ class P
     @pair=pair
   end
 end
+=end
 class S
   @@output={
-    :A=>->(a){"(p+=#{a.inspect})"},
-    :S=>->(a){"(p-=#{a.inspect})"},
+    :P=>->(a,b){"S.new(:P,#{a},#{b})"},
+    :A=>->(a){"(p+#{a.inspect})"},
+    :S=>->(a){"(p-#{a.inspect})"},
     :H=>->(b,c){"((isHit.(p))?#{b.inspect}:#{c.inspect})"},
     :M=>->(b,c){"((isMiss.(p))?#{b.inspect}:#{c.inspect})"},
     :U=>->(c){"((isUnk.(p))?p:#{c.inspect})"},
     :R=>->(a,*l){a.inspect},
-    :D=>->(){"P.new(rand(10),rand(10))"}
+    :D=>->(){"S.new(:P,rand(10),rand(10))"}
   }
   @@arg={
     A: 1,S: 1,
@@ -59,7 +62,7 @@ class S
     R: 1,D: 0
   }
   def self.init(node,depth)
-    depth==0 and return [S.new(:D),P.new(rand(10),rand(10))].shuffle.first
+    depth==0 and return [S.new(:D),S.new(:P,rand(10),rand(10))].shuffle.first
     op=@@arg.keys.shuffle.first
     node.op=op
     @@arg[op].times{
@@ -75,6 +78,22 @@ class S
     @op=op
     @list=arg
   end
+  def +(other)    
+    S.new(:P,@list[0]+other.a, @list[1]+other.b)
+  end
+  def -(other)
+    S.new(:P,@list[0]-other.a, @list[1]-other.b)
+  end
+
+  def a
+    return @list[0]
+  end
+  def b
+    return @list[1]
+  end
+  def to_a
+    [a,b]
+  end
   def swap(s)
     @op,s.op=s.op,@op
     @list,s.list=s.list,@list
@@ -87,7 +106,7 @@ class S
   end
   def flatten
     arr=[self]
-    @list.each{|s|
+    @op!=:P and @list.each{|s|
       arr+=s.flatten
     }
     return arr
@@ -151,7 +170,7 @@ class S
     file.puts "  def name; '#{n+1}.rb' ;end"
     file.puts "  def new_game"  
 
-    file.puts "    @p=P.new(rand(10),rand(10))"
+    file.puts "    @p=S.new(:P,rand(10),rand(10))"
     S.ships(map=[],[],[2,3,4,4,5])
     file.puts map.inspect
   
@@ -160,11 +179,12 @@ class S
     file.puts "    isHit=->(p){state[p.a][p.b]==:hit}"
     file.puts "    isMiss=->(p){state[p.a][p.b]==:miss}"
     file.puts "    isUnk=->(p){state[p.a][p.b]==:known}"
-    file.print "    p=@p.dup\n    "
+    file.puts "    p=@p"
+    file.print "    p="
     file.puts self.inspect
-    file.puts "     x=(!p.a.between?(0,9))?(10-p.a%10):p.a"
-    file.puts "     y=(!p.b.between?(0,9))?(10-p.b%10):p.b"
-    file.puts "     (@p=P.new(x,y)).to_a"
+    file.puts "     x=(!p.a.between?(0,9))?(9-p.a%10):p.a"
+    file.puts "     y=(!p.b.between?(0,9))?(9-p.b%10):p.b"
+    file.puts "     (@p=S.new(:P,x,y)).to_a"
     file.puts "  end"
     file.puts "end"
     file.puts "__END__"
