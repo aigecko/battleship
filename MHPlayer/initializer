@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+ARGV.empty? and $stderr<<"NO number" and exit	
 require_relative "expression"
 require "pp"
 def ships(map,used,list)
@@ -54,15 +55,17 @@ def ships(map,used,list)
     ships(map,used,list)
   end
 end
-1.times{|n|
+ARGV[0].to_i.times{|n|
   S.init(tree=S.new(:R),3)
 
-  file=open("../players/init%d.rb"%(n+1),"w")
+  file=open("../players/%d.rb"%(n+1),"w")
+  file.puts "require_relative '../MHPlayer/expression'"
   file.puts "class MH#{n+1}Player"
-  file.puts "  def name; 'MH#{n+1}Player' ;end"
+  file.puts "  def name; '#{n+1}.rb' ;end"
   file.puts "  def new_game"
-  @p=P.new(0,0)
+  
 
+  file.puts "    @p=P.new(rand(10),rand(10))"
   ships(map=[],[],[2,3,4,4,5])
   $stdout=file
   pp(map)<<"\n"
@@ -70,11 +73,15 @@ end
   file.puts "  end"
   file.puts "  def take_turn(state,ships_remaining)"
   file.puts "    isHit=->(p){state[p.a][p.b]==:hit}"
-  file.print "    p=@p\n    "
+  file.puts "    isMiss=->(p){state[p.a][p.b]==:miss}"
+  file.puts "    isUnk=->(p){state[p.a][p.b]==:known}"
+  file.print "    p=@p.dup\n    "
   file.puts tree.inspect
-  file.puts "    (@p=p).to_a"
+  file.puts "     x=(!p.a.between?(0,9))?(10-p.a%10):p.a"
+  file.puts "     y=(!p.b.between?(0,9))?(10-p.b%10):p.b"
+  file.puts "     (@p=P.new(x,y)).to_a"
   file.puts "  end"
   file.puts "end"
   file.puts "__END__"
-  file.puts Marshal.dump(tree)
+  file.puts Marshal.dump(tree)  
 }
