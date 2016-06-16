@@ -10,6 +10,7 @@ class CompeteTask:
     def __init__(pid, port):
         self.pid = pid
         self.port = port
+        self.read_handle
 
 def tournament(population, tournament_size):
     mating_pool = []
@@ -25,11 +26,18 @@ def tournament(population, tournament_size):
 
 def competition(*contestants):
     pid = os.fork()
+    r, w = os.pipe()
     if pid == 0:
-        print("./bin/play.rb", "./play.rb ", name(contestants[0]), ' ', name(contestants[1]), '0')
+        sys.stdout.flush()
+        os.close(r)
+        os.dup2(w, 1)
         os.execl("./bin/play.rb", "./play.rb", name(contestants[0]), name(contestants[1]), '0')
-    else:
-        os.waitpid(pid, 0)
+    os.close(w)
+    print("./bin/play.rb", name(contestants[0]), ' ', name(contestants[1]), '0')
+    os.waitpid(pid, 0)
+    buf = os.read(r, 1024)
+    os.close(r)
+    print('PIPE : ', buf)
     return contestants[0]
 
 def mate(mating_pool):
@@ -40,10 +48,9 @@ def mate(mating_pool):
         offspring2 = new_idx()
         pid = os.fork()
         if pid == 0:
-            print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2))
             os.execl('./crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2))
-        else:
-            wait_list.append(pid)
+        print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2))
+        wait_list.append(pid)
         offspring.extend([offspring1, offspring2])
     while len(wait_list) != 0:
         pid = os.wait()[0]
