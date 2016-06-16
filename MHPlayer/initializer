@@ -1,87 +1,12 @@
 #!/usr/bin/ruby
-ARGV.empty? and $stderr<<"NO number" and exit	
+ARGV.empty? and $stderr<<"NO number" and exit
+require 'base64'	
 require_relative "expression"
 require "pp"
-def ships(map,used,list)
-  list.empty?  and return
-  len=list.pop
-  over=false
-  while(!over)
-    reset=false
-    dir=rand(2)
-    x=rand(10)
-    y=rand(10)
-    if dir==1
-      dir=:across
-      len.times{|n|
-        if used.include?([x+n,y])||x+n>9
-          reset=true
-          break
-        end
-      }
-      reset and next
-      map<<[x,y,len,dir]
-      3.times{|n|
-        used<<[x-1,y+1-n]
-        used<<[x+1,y+1-n]
-      }
-      len.times{|n|
-        used<<[x+n,y]
-        used<<[x+n,y-1]
-        used<<[x+n,y+1]
-      }
-      over=true
-    else
-      dir=:down
-      len.times{|n|
-        if used.include?([x,y+n])||y+n>9
-          reset=true 
-          break
-        end
-      }
-      reset and next
-      map<<[x,y,len,dir]
-      3.times{|n|
-        used<<[x+1-n,y-1]
-        used<<[x+1-n,y+1]
-      }
-      len.times{|n|
-        used<<[x-1,y+n]
-        used<<[x,y+n]
-        used<<[x+1,y+n]
-      }
-      over=true
-    end
-    ships(map,used,list)
-  end
-end
+
 ARGV[0].to_i.times{|n|
-  S.init(tree=S.new(:R),3)
+  S.init(tree=S.new(:R),5)
 
   file=open("../players/%d.rb"%(n+1),"w")
-  file.puts "require_relative '../MHPlayer/expression'"
-  file.puts "class MH#{n+1}Player"
-  file.puts "  def name; '#{n+1}.rb' ;end"
-  file.puts "  def new_game"
-  
-
-  file.puts "    @p=P.new(rand(10),rand(10))"
-  ships(map=[],[],[2,3,4,4,5])
-  $stdout=file
-  pp(map)<<"\n"
-  
-  file.puts "  end"
-  file.puts "  def take_turn(state,ships_remaining)"
-  file.puts "    isHit=->(p){state[p.a][p.b]==:hit}"
-  file.puts "    isMiss=->(p){state[p.a][p.b]==:miss}"
-  file.puts "    isUnk=->(p){state[p.a][p.b]==:known}"
-  file.print "    p=@p.dup\n    "
-  file.puts tree.inspect
-  file.puts "     x=(!p.a.between?(0,9))?(10-p.a%10):p.a"
-  file.puts "     y=(!p.b.between?(0,9))?(10-p.b%10):p.b"
-  file.puts "     (@p=P.new(x,y)).to_a"
-  file.puts "  end"
-  file.puts "end"
-  file.puts "__END__"
-  file.puts Marshal.dump(tree)  
+  tree.write(file,n)  
 }
