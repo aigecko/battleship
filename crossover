@@ -1,6 +1,22 @@
 #!/usr/bin/ruby
+require 'base64'
 require_relative 'MHPlayer/expression'
 ARGV.empty? and p"NO AARGV" and exit
-open("players/#{ARGV[2]}.rb","wb")<<open("players/#{ARGV[0]}.rb","rb").read
-open("players/#{ARGV[3]}.rb","wb")<<open("players/#{ARGV[1]}.rb","rb").read
+in1=open("players/#{ARGV[0]}.rb","rb").read
+in2=open("players/#{ARGV[1]}.rb","rb").read
+out1=open("players/#{ARGV[2]}.rb","wb")
+out2=open("players/#{ARGV[3]}.rb","wb")
 
+s1=Marshal.load(
+  Base64.decode64(
+    in1.match(/.*__END__\n([\S\n]+)/)[1].gsub!("\n","")))
+
+s2=Marshal.load(
+  Base64.decode64(
+    in2.match(/.*__END__\n([\S\n]+)/)[1].gsub!("\n","")))
+
+s1.flatten.reject{|s| s.op==:R }.shuffle.first.swap(
+  s2.flatten.reject{|s| s.op==:R}.shuffle.first)
+
+s1.write(out1,ARGV[2].to_i)
+s2.write(out2,ARGV[3].to_i)

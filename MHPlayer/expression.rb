@@ -17,6 +17,9 @@ class P
   def to_a
     @pair
   end
+  def op
+    :P
+  end
   def a
     return @pair[0]
   end
@@ -27,7 +30,11 @@ class P
     "P.new(#{@pair[0]},#{@pair[1]})"
   end
   def flatten
-    @pair
+    [self]
+  end
+  def swap(p)
+    @pair[0],p.pair[0]=p.a,@pair[0]
+    @pair[1],p.pair[1]=p.b,@pair[1]
   end
   def marshal_dump
     @pair
@@ -60,13 +67,17 @@ class S
     }
     return node
   end
-  attr_accessor :op
+  attr_accessor :op,:list
   def <<(other)
     @list<<other
   end
   def initialize(op,*arg)
     @op=op
     @list=arg
+  end
+  def swap(s)
+    @op,s.op=s.op,@op
+    @list,s.list=s.list,@list
   end
   def eval
     @@proc[@op].call(*@list)
@@ -80,6 +91,84 @@ class S
       arr+=s.flatten
     }
     return arr
+  end
+  def self.ships(map,used,list)
+    list.empty?  and return
+    len=list.pop
+    over=false
+    while(!over)
+      reset=false
+      dir=rand(2)
+      x=rand(10)
+      y=rand(10)
+      if dir==1
+        dir=:across
+        len.times{|n|
+          if used.include?([x+n,y])||x+n>9
+            reset=true
+            break
+          end
+        }
+        reset and next
+        map<<[x,y,len,dir]
+        3.times{|n|
+          used<<[x-1,y+1-n]
+          used<<[x+1,y+1-n]
+        }
+        len.times{|n|
+          used<<[x+n,y]
+          used<<[x+n,y-1]
+          used<<[x+n,y+1]
+        }
+        over=true
+      else
+        dir=:down
+        len.times{|n|
+          if used.include?([x,y+n])||y+n>9
+            reset=true 
+            break
+          end
+        }
+        reset and next
+        map<<[x,y,len,dir]
+        3.times{|n|
+          used<<[x+1-n,y-1]
+          used<<[x+1-n,y+1]
+        }
+        len.times{|n|
+          used<<[x-1,y+n]
+          used<<[x,y+n]
+          used<<[x+1,y+n]
+        }
+        over=true
+      end
+      ships(map,used,list)
+    end
+  end
+  def write(file,n)
+    file.puts "require_relative '../MHPlayer/expression'"
+    file.puts "class MH#{n+1}Player"
+    file.puts "  def name; '#{n+1}.rb' ;end"
+    file.puts "  def new_game"  
+
+    file.puts "    @p=P.new(rand(10),rand(10))"
+    S.ships(map=[],[],[2,3,4,4,5])
+    file.puts map.inspect
+  
+    file.puts "  end"
+    file.puts "  def take_turn(state,ships_remaining)"
+    file.puts "    isHit=->(p){state[p.a][p.b]==:hit}"
+    file.puts "    isMiss=->(p){state[p.a][p.b]==:miss}"
+    file.puts "    isUnk=->(p){state[p.a][p.b]==:known}"
+    file.print "    p=@p.dup\n    "
+    file.puts self.inspect
+    file.puts "     x=(!p.a.between?(0,9))?(10-p.a%10):p.a"
+    file.puts "     y=(!p.b.between?(0,9))?(10-p.b%10):p.b"
+    file.puts "     (@p=P.new(x,y)).to_a"
+    file.puts "  end"
+    file.puts "end"
+    file.puts "__END__"
+    file.print Base64.encode64(Marshal.dump(self))
   end
   def marshal_dump
     [@op,@list]
