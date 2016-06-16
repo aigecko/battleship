@@ -6,6 +6,11 @@ class P
     @pair[1]+=other.pair[1]
     @pair
   end
+  def -(other)
+    @pair[0]-=other.a
+    @pair[1]-=other.b
+    @pair
+  end
   def initialize(a,b)
     @pair=[a,b]
   end
@@ -21,6 +26,9 @@ class P
   def inspect
     "P.new(#{@pair[0]},#{@pair[1]})"
   end
+  def flatten
+    @pair
+  end
   def marshal_dump
     @pair
   end
@@ -31,16 +39,20 @@ end
 class S
   @@output={
     :A=>->(a){"(p+=#{a.inspect})"},
-    :H=>->(a,b,c){"((isHit.(#{a.inspect}))?#{b.inspect}:#{c.inspect})"},
-    :R=>->(a,*l){a.inspect}
+    :S=>->(a){"(p-=#{a.inspect})"},
+    :H=>->(b,c){"((isHit.(p))?#{b.inspect}:#{c.inspect})"},
+    :M=>->(b,c){"((isMiss.(p))?#{b.inspect}:#{c.inspect})"},
+    :U=>->(c){"((isUnk.(p))?p:#{c.inspect})"},
+    :R=>->(a,*l){a.inspect},
+    :D=>->(){"P.new(rand(10),rand(10))"}
   }
   @@arg={
-    A: 1,
-    H: 3,
-    R: 1
+    A: 1,S: 1,
+    H: 2,M: 2,U: 1,
+    R: 1,D: 0
   }
   def self.init(node,depth)
-    depth==0 and return P.new(rand(10),rand(10))
+    depth==0 and return [S.new(:D),P.new(rand(10),rand(10))].shuffle.first
     op=@@arg.keys.shuffle.first
     node.op=op
     @@arg[op].times{
@@ -61,6 +73,13 @@ class S
   end
   def inspect
     @@output[@op].(*@list)
+  end
+  def flatten
+    arr=[self]
+    @list.each{|s|
+      arr+=s.flatten
+    }
+    return arr
   end
   def marshal_dump
     [@op,@list]
