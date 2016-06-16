@@ -61,14 +61,14 @@ ARGV[0].to_i.times{|n|
   file=open("../players/%d.rb"%(n+1),"w")
   file.puts "require_relative '../MHPlayer/expression'"
   file.puts "class MH#{n+1}Player"
-  file.puts "  def name; 'MH#{n+1}Player' ;end"
+  file.puts "  def name; '#{n+1}.rb' ;end"
   file.puts "  def new_game"
   
 
+  file.puts "    @p=P.new(rand(10),rand(10))"
   ships(map=[],[],[2,3,4,4,5])
   $stdout=file
   pp(map)<<"\n"
-  file.puts "    @p=P.new(rand(10),rand(10))"
   
   file.puts "  end"
   file.puts "  def take_turn(state,ships_remaining)"
