@@ -61,7 +61,7 @@ begin
       game.tick
       time_taken = Time.now - t0
       ARGV[2] or $stdout << renderer.render(game)
-      $stdout << stderr
+      #$stdout << stderr
       #sleep [DELAY - time_taken, 0].max
     end
 
