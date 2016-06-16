@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-import glob
 import sys
 import os
 import random
@@ -42,7 +41,7 @@ def mate(mating_pool):
         pid = os.fork()
         if pid == 0:
             print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2))
-            os.execl('./MHPlayer/crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2))
+            os.execl('./crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2))
         else:
             wait_list.append(pid)
         offspring.extend([offspring1, offspring2])
