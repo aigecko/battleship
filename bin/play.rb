@@ -65,7 +65,7 @@ begin
       sleep [DELAY - time_taken, 0].max
     end
 
-    puts "#{game.winner.name}"
+    ARGV[2] or puts "#{game.winner.name}"
 
     winners << game.winner.name
 
@@ -79,6 +79,7 @@ begin
   ARGV[2] or winners.each_with_index do |name, i|
     puts "Round #{i+1}. #{name}"
   end
+  ARGV[2] and puts winners.last
 
   players.each &:kill
 rescue Exception => e
