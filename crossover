@@ -1,0 +1,6 @@
+#!/usr/bin/ruby
+require_relative 'MHPlayer/expression'
+ARGV.empty? and p"NO AARGV" and exit
+open("players/#{ARGV[2]}.rb","wb")<<open("players/#{ARGV[0]}.rb","rb").read
+open("players/#{ARGV[3]}.rb","wb")<<open("players/#{ARGV[1]}.rb","rb").read
+

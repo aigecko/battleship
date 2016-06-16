@@ -9,7 +9,7 @@ require "forwardable"
 require "drb"
 
 DELAY = 0
-PORT = 4432
+PORT = ARGV[3] ? ARGV[3].to_i : 4432
 
 class PlayerClient
   extend Forwardable
@@ -62,14 +62,12 @@ begin
       time_taken = Time.now - t0
       ARGV[2] or $stdout << renderer.render(game)
       $stdout << stderr
-      sleep [DELAY - time_taken, 0].max
+      #sleep [DELAY - time_taken, 0].max
     end
 
     ARGV[2] or puts "#{game.winner.name}"
 
     winners << game.winner.name
-
-    sleep 3
 
     break if i == 1 && winners[0] == winners[1]
 
