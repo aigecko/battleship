@@ -5,7 +5,7 @@ import os
 import random
 import time
 
-GENERATION_COUNT = 2
+GENERATION_COUNT = 1
 
 class CompeteTask:
     def __init__(pid, port):
@@ -26,21 +26,19 @@ def tournament(population, tournament_size):
     return mating_pool
 
 def competition(*contestants):
-    pid = os.fork()
     r, w = os.pipe()
+    pid = os.fork()
     if pid == 0:
-        sys.stdout.flush()
         os.close(r)
         os.dup2(w, 1)
         os.execl("./bin/play.rb", "./play.rb", name(contestants[0]), name(contestants[1]), '0')
-    os.close(w)
-    time.sleep(1)
-    buf = os.read(r, 1)
     print("./bin/play.rb", name(contestants[0]), ' ', name(contestants[1]), '0')
-    print('PIPE : ', buf)
-    os.waitpid(pid, 0)
+    os.close(w)
+    read = os.fdopen(r)
+    winner = int(read.read().strip('\n.rb '))
     os.close(r)
-    return contestants[0]
+    os.waitpid(pid, 0)
+    return winner
 
 def mate(mating_pool):
     offspring = []
