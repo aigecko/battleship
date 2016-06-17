@@ -171,7 +171,7 @@ class S
     file.puts "  def new_game"  
 
     file.puts "    @p=S.new(:P,rand(10),rand(10))"
-    S.ships(map=[],[],[2,3,4,4,5])
+    S.ships(map=[],[],[2,3,3,4,5])
     file.puts map.inspect
   
     file.puts "  end"
