@@ -2,10 +2,12 @@ require "battleship/board"
 
 module Battleship
   class Game
+    attr_accessor :round
     def initialize(size, expected_fleet, *players)
       @state = build_initial_state(size, expected_fleet, players)
 
       @turn = 0
+      @round = 0
 
       @state.reverse.each do |player, opponent, board|
         unless board.valid?
@@ -29,6 +31,8 @@ module Battleship
         @winner = player
       end
       
+      @round+=1     
+
       result
     end
 

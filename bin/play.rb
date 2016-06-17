@@ -68,6 +68,8 @@ begin
     ARGV[2] or puts "#{game.winner.name}"
 
     winners << game.winner.name
+     
+    #p game.round
 
     break if i == 1 && winners[0] == winners[1]
 
