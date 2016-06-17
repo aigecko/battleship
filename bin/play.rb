@@ -69,7 +69,11 @@ begin
 
     winners << game.winner.name
      
-    #p game.round
+    p game.round
+    p game.fired
+    p game.report.map{|b| b.flatten.count :hit}
+    p game.report.map{|b| b.flatten.count :miss}
+    p game.report.map{|b| b.flatten.count :unknown}
 
     break if i == 1 && winners[0] == winners[1]
 
