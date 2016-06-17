@@ -12,7 +12,7 @@ module Battleship
       names  = game.names
       report = game.report
       ships  = game.ships_remaining
-      sleep 0.05
+      sleep 0.01
 
       output << RESET
       2.times.each do |i|

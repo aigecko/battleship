@@ -5,7 +5,7 @@ import os
 import random
 import time
 
-GENERATION_COUNT = 1
+GENERATION_COUNT = 20
 
 class CompeteTask:
     def __init__(pid, port):
@@ -35,7 +35,12 @@ def competition(*contestants):
     print("./bin/play.rb", name(contestants[0]), ' ', name(contestants[1]), '0')
     os.close(w)
     read = os.fdopen(r)
-    winner = int(read.read().strip('\n.rb '))
+    data = read.read().split('\n')
+    rnd, fired, hit, miss, unknown = eval(data[0]), eval(data[1]), eval(data[2]), eval(data[3]), eval(data[4])
+    print('ROUND : ', rnd)
+    print(name(contestants[0]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%' % (hit[0]/fired[0], miss[0]/fired[0]))
+    print(name(contestants[1]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%' % (hit[1]/fired[1], miss[1]/fired[1]))
+    winner = int(data[-2].strip('\n.rb '))
     os.close(r)
     os.waitpid(pid, 0)
     return winner
@@ -74,11 +79,12 @@ if __name__ == '__main__':
         exit(0)
 
     population = [i for i in range(1, int(sys.argv[1]) + 1)]
-    print(population)
     global new_idx
     new_idx = make_index_generator(len(population))
 
-    for _ in range(GENERATION_COUNT):
+    for i in range(GENERATION_COUNT):
+        print('GENERATION : ', i)
+        print('POPULATION : ' , population)
         mating_pool = tournament(population, 2)
         offspring = mate(mating_pool)
         population = offspring
