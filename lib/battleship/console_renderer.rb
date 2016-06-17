@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require "stringio"
-#require "colored"
+require "colored"
 
 module Battleship
   class ConsoleRenderer
@@ -12,6 +12,7 @@ module Battleship
       names  = game.names
       report = game.report
       ships  = game.ships_remaining
+      sleep 0.05
 
       output << RESET
       2.times.each do |i|
@@ -25,8 +26,8 @@ module Battleship
   private
     ICONS = {
       :unknown => ". ",
-      :hit     => "X ",
-      :miss    => "~ "
+      :hit     => "█▉".red,
+      :miss    => "▒▒".cyan
     }
 
     def render_row(row)
