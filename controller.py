@@ -3,6 +3,7 @@
 import sys
 import os
 import random
+import time
 
 GENERATION_COUNT = 2
 
@@ -33,11 +34,12 @@ def competition(*contestants):
         os.dup2(w, 1)
         os.execl("./bin/play.rb", "./play.rb", name(contestants[0]), name(contestants[1]), '0')
     os.close(w)
+    time.sleep(1)
+    buf = os.read(r, 1)
     print("./bin/play.rb", name(contestants[0]), ' ', name(contestants[1]), '0')
-    os.waitpid(pid, 0)
-    buf = os.read(r, 1024)
-    os.close(r)
     print('PIPE : ', buf)
+    os.waitpid(pid, 0)
+    os.close(r)
     return contestants[0]
 
 def mate(mating_pool):
