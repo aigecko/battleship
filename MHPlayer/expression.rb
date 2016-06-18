@@ -45,6 +45,10 @@ class S
   def to_a
     [a,b]
   end
+  def single_swap(s)
+    swap(s)
+    s.list.any? and @list.zip(s.list){|a,b| a.swap(b)}
+  end
   def swap(s)
     @op,s.op=s.op,@op
     @list,s.list=s.list,@list

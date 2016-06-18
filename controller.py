@@ -58,8 +58,8 @@ def mate(mating_pool):
         offspring2 = new_idx()
         pid = os.fork()
         if pid == 0:
-            os.execl('./crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2))
-        print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2))
+            os.execl('./crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2),'0')
+        print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2)+'0')
         wait_list.append(pid)
         offspring.extend([offspring1, offspring2])
     while len(wait_list) != 0:

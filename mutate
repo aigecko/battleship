@@ -1,0 +1,21 @@
+#!/usr/bin/ruby
+require 'base64'
+require_relative 'MHPlayer/expression'
+ARGV.empty? and p"NO AARGV" and exit
+in1=open("players/#{ARGV[0]}.rb","rb").read
+
+s1=Marshal.load(
+  Base64.decode64(
+    in1.match(/.*__END__\n([\S\n]+)/)[1].gsub!("\n","")))
+
+str=s1
+ptr=str
+tmp=S.new(:Q)
+while(ptr.op!=:Q)
+  str=ptr.list.first
+  ptr.list[0]=tmp
+  tmp=ptr
+  ptr=str
+end
+ptr.list=tmp
+p s1=str.list

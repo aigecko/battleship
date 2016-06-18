@@ -15,8 +15,40 @@ s2=Marshal.load(
   Base64.decode64(
     in2.match(/.*__END__\n([\S\n]+)/)[1].gsub!("\n","")))
 
-s1.flatten.reject{|s| s.op==:R }.shuffle.first.swap(
-  s2.flatten.reject{|s| s.op==:R}.shuffle.first)
+if ARGV[4]  
+  s1.flatten.reject{|s| s.op==:R }.shuffle.first.single_swap(
+    s2.flatten.reject{|s| s.op==:R}.shuffle.first)
+else
+  s1.flatten.reject{|s| s.op==:R }.shuffle.first.swap(
+    s2.flatten.reject{|s| s.op==:R}.shuffle.first)
+end
+
+if 0.05<rand()
+  str=s1
+  ptr=str
+  tmp=S.new(:Q)
+  while(ptr.op!=:Q)
+    str=ptr.list.first
+    ptr.list[0]=tmp
+    tmp=ptr
+    ptr=str
+  end
+  ptr.list=tmp
+  s1=str.list
+end
+if 0.05<rand()
+  str=s2
+  ptr=str
+  tmp=S.new(:Q)
+  while(ptr.op!=:Q)
+    str=ptr.list.first
+    ptr.list[0]=tmp
+    tmp=ptr
+    ptr=str
+  end
+  ptr.list=tmp
+  s2=str.list
+end
 
 s1.write(out1,ARGV[2].to_i-1)
 s2.write(out2,ARGV[3].to_i-1)
