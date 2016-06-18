@@ -47,22 +47,20 @@ end
 =end
 class S
   @@output={
-    :P=>->(a,b){"S.new(:P,#{a},#{b})"},
-    :A=>->(a){"(p+#{a.inspect})"},
-    :S=>->(a){"(p-#{a.inspect})"},
-    :H=>->(b,c){"((isHit.(p))?#{b.inspect}:#{c.inspect})"},
-    :M=>->(b,c){"((isMiss.(p))?#{b.inspect}:#{c.inspect})"},
-    :U=>->(c){"((isUnk.(p))?p:#{c.inspect})"},
-    :R=>->(a,*l){a.inspect},
-    :D=>->(){"S.new(:P,rand(10),rand(10))"}
+    :U=>->(b){"-S.new(:P,1,0)#{b.inspect}"},
+    :D=>->(b){"+S.new(:P,1,0)#{b.inspect}"},
+    :L=>->(b){"-S.new(:P,0,1)#{b.inspect}"},
+    :T=>->(b){"+S.new(:P,0,1)#{b.inspect}"},
+    :Q=>->(){""},
+
+    :R=>->(a,*l){a.inspect}
   }
   @@arg={
-    A: 1,S: 1,
-    H: 2,M: 2,U: 1,
-    R: 1,D: 0
+    U: 1,D: 1,L: 1,T: 1,
+    R: 1,Q: 0
   }
   def self.init(node,depth)
-    depth==0 and return [S.new(:D),S.new(:P,rand(10),rand(10))].shuffle.first
+    depth==0 and return S.new(:Q)
     op=@@arg.keys.shuffle.first
     node.op=op
     @@arg[op].times{
@@ -176,11 +174,7 @@ class S
   
     file.puts "  end"
     file.puts "  def take_turn(state,ships_remaining)"
-    file.puts "    isHit=->(p){state[p.a][p.b]==:hit}"
-    file.puts "    isMiss=->(p){state[p.a][p.b]==:miss}"
-    file.puts "    isUnk=->(p){state[p.a][p.b]==:known}"
-    file.puts "    p=@p"
-    file.print "    p="
+    file.print "    p=@p"
     file.puts self.inspect
     file.puts "     x=(!p.a.between?(0,9))?(9-p.a%10):p.a"
     file.puts "     y=(!p.b.between?(0,9))?(9-p.b%10):p.b"
