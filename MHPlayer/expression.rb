@@ -10,7 +10,7 @@ class S
   }
   @@arg={
     A: 1,L: 1,T: 1,
-    R: 1,Q: 0
+    R: 1
   }
   def self.init(node,depth)
     depth==0 and return S.new(:Q)
