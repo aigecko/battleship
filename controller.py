@@ -42,7 +42,7 @@ def competition(*contestants):
     print(name(contestants[1]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%, FIX RATE %.4f%%' % (hit[1]/fired[1], miss[1]/fired[1], fix[1]/fired[1]))
 
     winner = ''
-    if hit[0]/fired[0] > hit[1]/fired[1]:
+    if fix[0]/fired[0] < fix[1]/fired[1]:
         winner = contestants[0]
     else:
         winner = contestants[1]
