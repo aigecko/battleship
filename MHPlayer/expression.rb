@@ -1,50 +1,4 @@
 #!/usr/bin/ruby
-=begin
-class P
-  attr_reader :pair
-  def +(other)
-    @pair[0]+=other.pair[0]
-    @pair[1]+=other.pair[1]
-    @pair
-  end
-  def -(other)
-    @pair[0]-=other.a
-    @pair[1]-=other.b
-    @pair
-  end
-  def initialize(a,b)
-    @pair=[a,b]
-  end
-  def to_a
-    @pair
-  end
-  def op
-    :P
-  end
-  def a
-    return @pair[0]
-  end
-  def b
-    return @pair[1]
-  end
-  def inspect
-    "P.new(#{@pair[0]},#{@pair[1]})"
-  end
-  def flatten
-    [self]
-  end
-  def swap(p)
-    @pair[0],p.pair[0]=p.a,@pair[0]
-    @pair[1],p.pair[1]=p.b,@pair[1]
-  end
-  def marshal_dump
-    @pair
-  end
-  def marshal_load(pair)
-    @pair=pair
-  end
-end
-=end
 class S
   @@output={
     :A=>->(b){"+\nS.new(:P,*v[@dir])#{b.inspect}"},
@@ -182,7 +136,7 @@ class S
     file.puts "    if(state[y][x]!=:unknown)"
     file.puts "      (@p=S.new(:P,*state.map.with_index{|row,y| row.map.with_index{|s,x| [y,x,s]}}.inject(&:+).keep_if{|a| a[2]==:unknown}.sort_by!{|a| (y-a[0]).abs+(x-a[1]).abs}.first[0..1])).to_a"
     file.puts "    else"
-    file.puts "      (@p=S.new(:P,x,y)).to_a"
+    file.puts "      (@p=S.new(:P,y,x)).to_a"
     file.puts "    end"
     file.puts "  end"
     file.puts "end"
