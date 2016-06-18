@@ -74,6 +74,7 @@ begin
     p game.report.map{|b| b.flatten.count :hit}
     p game.report.map{|b| b.flatten.count :miss}
     p game.report.map{|b| b.flatten.count :unknown}
+    p game.fix_counts
 
     break if i == 1 && winners[0] == winners[1]
 

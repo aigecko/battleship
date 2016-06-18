@@ -36,10 +36,10 @@ def competition(*contestants):
     os.close(w)
     read = os.fdopen(r)
     data = read.read().split('\n')
-    rnd, fired, hit, miss, unknown = eval(data[0]), eval(data[1]), eval(data[2]), eval(data[3]), eval(data[4])
+    rnd, fired, hit, miss, unknown, fix = eval(data[0]), eval(data[1]), eval(data[2]), eval(data[3]), eval(data[4]), eval(data[5])
     print('ROUND : ', rnd)
-    print(name(contestants[0]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%' % (hit[0]/fired[0], miss[0]/fired[0]))
-    print(name(contestants[1]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%' % (hit[1]/fired[1], miss[1]/fired[1]))
+    print(name(contestants[0]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%, FIX RATE %.4f%%' % (hit[0]/fired[0], miss[0]/fired[0], fix[0]/fired[0]))
+    print(name(contestants[1]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%, FIX RATE %.4f%%' % (hit[1]/fired[1], miss[1]/fired[1], fix[1]/fired[1]))
 
     winner = ''
     if hit[0]/fired[0] > hit[1]/fired[1]:

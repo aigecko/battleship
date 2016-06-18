@@ -118,10 +118,12 @@ class S
   def write(file,n)
     file.puts "require_relative '../MHPlayer/expression'"
     file.puts "class MH#{n+1}Player"
+    file.puts "  attr_accessor :fix"
     file.puts "  def name; '#{n+1}.rb' ;end"
     file.puts "  def new_game"  
 
     file.puts "    @p=S.new(:P,0,0)"
+    file.puts "    @fix=0"
     file.puts "    @dir=2"
     S.ships(map=[],[],[2,3,3,4,5])
     file.puts map.inspect
@@ -134,6 +136,7 @@ class S
     file.puts "    x=(!p.b.between?(0,9))?(9-p.b%10):p.b"
     file.puts "    y=(!p.a.between?(0,9))?(9-p.a%10):p.a"
     file.puts "    if(state[y][x]!=:unknown)"
+    file.puts "      @fix+=1"
     file.puts "      (@p=S.new(:P,*state.map.with_index{|row,x| row.map.with_index{|s,y| [y,x,s]}}.inject(&:+).keep_if{|a| a[2]==:unknown}.sort_by!{|a| (y-a[0]).abs+(x-a[1]).abs}.first[0..1])).to_a"
     file.puts "    else"
     file.puts "      (@p=S.new(:P,x,y)).to_a"

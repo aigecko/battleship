@@ -13,7 +13,7 @@ module Battleship
       @player = @player_class.new
     end
 
-    def_delegators :@player, :name, :take_turn
+    def_delegators :@player, :name, :take_turn, :fix
 
     def new_game
       @player = @player_class.new

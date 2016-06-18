@@ -50,6 +50,10 @@ module Battleship
       @state.reverse.map{ |_, __, board| board.ships_remaining }
     end
 
+    def fix_counts
+      @state.map{ |player,_,__| player.fix}
+    end
+
   private
     def dup_if_possible(v)
       v.dup
