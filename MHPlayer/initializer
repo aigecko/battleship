@@ -5,7 +5,7 @@ require_relative "expression"
 require "pp"
 
 ARGV[0].to_i.times{|n|
-  S.init(tree=S.new(:R),5)
+  S.init(tree=S.new(:R),10)
 
   file=open("../players/%d.rb"%(n+1),"w")
   tree.write(file,n)  

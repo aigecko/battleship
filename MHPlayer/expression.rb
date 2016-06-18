@@ -47,16 +47,15 @@ end
 =end
 class S
   @@output={
-    :U=>->(b){"-S.new(:P,1,0)#{b.inspect}"},
-    :D=>->(b){"+S.new(:P,1,0)#{b.inspect}"},
-    :L=>->(b){"-S.new(:P,0,1)#{b.inspect}"},
-    :T=>->(b){"+S.new(:P,0,1)#{b.inspect}"},
-    :Q=>->(){""},
+    :A=>->(b){"+\nS.new(:P,*v[@dir])#{b.inspect}"},
+    :L=>->(b){"+\nS.new(:P,*v[@dir=(@dir-1)%4])#{b.inspect}"},
+    :T=>->(b){"+\nS.new(:P,*v[@dir=(@dir+1)%4])#{b.inspect}"},
+    :Q=>->(){";"},
 
     :R=>->(a,*l){a.inspect}
   }
   @@arg={
-    U: 1,D: 1,L: 1,T: 1,
+    A: 1,L: 1,T: 1,
     R: 1,Q: 0
   }
   def self.init(node,depth)
@@ -168,17 +167,23 @@ class S
     file.puts "  def name; '#{n+1}.rb' ;end"
     file.puts "  def new_game"  
 
-    file.puts "    @p=S.new(:P,rand(10),rand(10))"
+    file.puts "    @p=S.new(:P,0,0)"
+    file.puts "    @dir=2"
     S.ships(map=[],[],[2,3,3,4,5])
     file.puts map.inspect
   
     file.puts "  end"
     file.puts "  def take_turn(state,ships_remaining)"
-    file.print "    p=@p"
+    file.puts "    v=[[-1,0],[0,1],[1,0],[0,-1]]"
+    file.print "   p=@p"
     file.puts self.inspect
-    file.puts "     x=(!p.a.between?(0,9))?(9-p.a%10):p.a"
-    file.puts "     y=(!p.b.between?(0,9))?(9-p.b%10):p.b"
-    file.puts "     (@p=S.new(:P,x,y)).to_a"
+    file.puts "    x=(!p.b.between?(0,9))?(9-p.b%10):p.b"
+    file.puts "    y=(!p.a.between?(0,9))?(9-p.a%10):p.a"
+    file.puts "    if(state[y][x]!=:unknown)"
+    file.puts "      (@p=S.new(:P,*state.map.with_index{|row,y| row.map.with_index{|s,x| [y,x,s]}}.inject(&:+).keep_if{|a| a[2]==:unknown}.sort_by!{|a| (y-a[0]).abs+(x-a[1]).abs}.first[0..1])).to_a"
+    file.puts "    else"
+    file.puts "      (@p=S.new(:P,x,y)).to_a"
+    file.puts "    end"
     file.puts "  end"
     file.puts "end"
     file.puts "__END__"
