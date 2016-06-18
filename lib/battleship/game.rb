@@ -27,10 +27,12 @@ module Battleship
       move = dup_if_possible(player.take_turn(board.report, board.ships_remaining))
       result = board.try(move)
 
-      board.try([move[0]+1,move[1]+1])
-      board.try([move[0]+1,move[1]-1])
-      board.try([move[0]-1,move[1]+1])
-      board.try([move[0]-1,move[1]-1])
+      if result==:hit
+        board.try([move[0]+1,move[1]+1])
+        board.try([move[0]+1,move[1]-1])
+        board.try([move[0]-1,move[1]+1])
+        board.try([move[0]-1,move[1]-1])
+      end
 
       if result == :invalid
         @winner = opponent

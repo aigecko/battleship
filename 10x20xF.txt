@@ -1,0 +1,1888 @@
+GENERATION :  0
+POPULATION :  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+./bin/play.rb ./players/12.rb   ./players/7.rb 0
+ROUND :  178
+./players/12.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.6180%
+./players/7.rb HIT RATE : 0.1798%, MISS RATE : 0.8202%, FIX RATE 0.4607%
+./bin/play.rb ./players/9.rb   ./players/8.rb 0
+ROUND :  186
+./players/9.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.9355%
+./players/8.rb HIT RATE : 0.1613%, MISS RATE : 0.8387%, FIX RATE 0.4516%
+./bin/play.rb ./players/13.rb   ./players/17.rb 0
+ROUND :  164
+./players/13.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.5122%
+./players/17.rb HIT RATE : 0.1707%, MISS RATE : 0.8293%, FIX RATE 0.1341%
+./bin/play.rb ./players/11.rb   ./players/3.rb 0
+ROUND :  193
+./players/11.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.7320%
+./players/3.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.4271%
+./bin/play.rb ./players/19.rb   ./players/6.rb 0
+ROUND :  180
+./players/19.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.5333%
+./players/6.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.3333%
+./bin/play.rb ./players/15.rb   ./players/3.rb 0
+ROUND :  150
+./players/15.rb HIT RATE : 0.2267%, MISS RATE : 0.7733%, FIX RATE 0.4400%
+./players/3.rb HIT RATE : 0.1733%, MISS RATE : 0.8267%, FIX RATE 0.2800%
+./bin/play.rb ./players/15.rb   ./players/14.rb 0
+ROUND :  164
+./players/15.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.4878%
+./players/14.rb HIT RATE : 0.1829%, MISS RATE : 0.8171%, FIX RATE 0.4390%
+./bin/play.rb ./players/1.rb   ./players/20.rb 0
+ROUND :  148
+./players/1.rb HIT RATE : 0.2297%, MISS RATE : 0.7703%, FIX RATE 0.4595%
+./players/20.rb HIT RATE : 0.1216%, MISS RATE : 0.8784%, FIX RATE 0.2973%
+./bin/play.rb ./players/18.rb   ./players/3.rb 0
+ROUND :  183
+./players/18.rb HIT RATE : 0.1413%, MISS RATE : 0.8478%, FIX RATE 0.5326%
+./players/3.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.3956%
+./bin/play.rb ./players/15.rb   ./players/13.rb 0
+ROUND :  168
+./players/15.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.5000%
+./players/13.rb HIT RATE : 0.1548%, MISS RATE : 0.8452%, FIX RATE 0.5238%
+./bin/play.rb ./players/1.rb   ./players/13.rb 0
+ROUND :  185
+./players/1.rb HIT RATE : 0.1720%, MISS RATE : 0.8172%, FIX RATE 0.5161%
+./players/13.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5217%
+./bin/play.rb ./players/9.rb   ./players/5.rb 0
+ROUND :  166
+./players/9.rb HIT RATE : 0.2048%, MISS RATE : 0.7952%, FIX RATE 0.9277%
+./players/5.rb HIT RATE : 0.1807%, MISS RATE : 0.8193%, FIX RATE 0.3253%
+./bin/play.rb ./players/19.rb   ./players/10.rb 0
+ROUND :  189
+./players/19.rb HIT RATE : 0.1579%, MISS RATE : 0.8316%, FIX RATE 0.5368%
+./players/10.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.5319%
+./bin/play.rb ./players/14.rb   ./players/7.rb 0
+ROUND :  177
+./players/14.rb HIT RATE : 0.1685%, MISS RATE : 0.8202%, FIX RATE 0.4831%
+./players/7.rb HIT RATE : 0.1932%, MISS RATE : 0.8182%, FIX RATE 0.4545%
+./bin/play.rb ./players/9.rb   ./players/19.rb 0
+ROUND :  186
+./players/9.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.9355%
+./players/19.rb HIT RATE : 0.1613%, MISS RATE : 0.8387%, FIX RATE 0.5269%
+./bin/play.rb ./players/10.rb   ./players/13.rb 0
+ROUND :  181
+./players/10.rb HIT RATE : 0.1758%, MISS RATE : 0.8132%, FIX RATE 0.5385%
+./players/13.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.5222%
+./bin/play.rb ./players/13.rb   ./players/12.rb 0
+ROUND :  135
+./players/13.rb HIT RATE : 0.1912%, MISS RATE : 0.7941%, FIX RATE 0.5147%
+./players/12.rb HIT RATE : 0.2537%, MISS RATE : 0.7612%, FIX RATE 0.4925%
+./bin/play.rb ./players/8.rb   ./players/14.rb 0
+ROUND :  187
+./players/8.rb HIT RATE : 0.1702%, MISS RATE : 0.8191%, FIX RATE 0.4574%
+./players/14.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.5054%
+./bin/play.rb ./players/1.rb   ./players/10.rb 0
+ROUND :  183
+./players/1.rb HIT RATE : 0.1630%, MISS RATE : 0.8261%, FIX RATE 0.5109%
+./players/10.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.5385%
+./bin/play.rb ./players/17.rb   ./players/18.rb 0
+ROUND :  195
+./players/17.rb HIT RATE : 0.1531%, MISS RATE : 0.8367%, FIX RATE 0.1633%
+./players/18.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.5361%
+./crossover 7 8 21 22
+./crossover 17 3 23 24
+./crossover 6 3 25 26
+./crossover 14 20 27 28
+./crossover 3 15 29 30
+./crossover 1 5 31 32
+./crossover 10 7 33 34
+./crossover 19 13 35 36
+./crossover 12 8 37 38
+./crossover 1 17 39 40
+GENERATION :  1
+POPULATION :  [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+./bin/play.rb ./players/22.rb   ./players/31.rb 0
+ROUND :  191
+./players/22.rb HIT RATE : 0.1667%, MISS RATE : 0.8229%, FIX RATE 0.5625%
+./players/31.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.4421%
+./bin/play.rb ./players/21.rb   ./players/23.rb 0
+ROUND :  146
+./players/21.rb HIT RATE : 0.2329%, MISS RATE : 0.7671%, FIX RATE 0.4247%
+./players/23.rb HIT RATE : 0.1918%, MISS RATE : 0.8082%, FIX RATE 0.4247%
+./bin/play.rb ./players/39.rb   ./players/23.rb 0
+ROUND :  151
+./players/39.rb HIT RATE : 0.2105%, MISS RATE : 0.7763%, FIX RATE 0.5263%
+./players/23.rb HIT RATE : 0.2267%, MISS RATE : 0.7867%, FIX RATE 0.4267%
+./bin/play.rb ./players/31.rb   ./players/35.rb 0
+ROUND :  180
+./players/31.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.4111%
+./players/35.rb HIT RATE : 0.1778%, MISS RATE : 0.8222%, FIX RATE 0.5111%
+./bin/play.rb ./players/30.rb   ./players/25.rb 0
+ROUND :  182
+./players/30.rb HIT RATE : 0.1868%, MISS RATE : 0.8132%, FIX RATE 0.4505%
+./players/25.rb HIT RATE : 0.1648%, MISS RATE : 0.8352%, FIX RATE 0.3407%
+./bin/play.rb ./players/37.rb   ./players/39.rb 0
+ROUND :  173
+./players/37.rb HIT RATE : 0.1724%, MISS RATE : 0.8161%, FIX RATE 0.4598%
+./players/39.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.5349%
+./bin/play.rb ./players/23.rb   ./players/40.rb 0
+ROUND :  176
+./players/23.rb HIT RATE : 0.1932%, MISS RATE : 0.8068%, FIX RATE 0.4318%
+./players/40.rb HIT RATE : 0.1818%, MISS RATE : 0.8182%, FIX RATE 0.5000%
+./bin/play.rb ./players/34.rb   ./players/36.rb 0
+ROUND :  181
+./players/34.rb HIT RATE : 0.1648%, MISS RATE : 0.8242%, FIX RATE 0.5495%
+./players/36.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.4333%
+./bin/play.rb ./players/26.rb   ./players/35.rb 0
+ROUND :  185
+./players/26.rb HIT RATE : 0.1720%, MISS RATE : 0.8172%, FIX RATE 0.4624%
+./players/35.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5109%
+./bin/play.rb ./players/33.rb   ./players/24.rb 0
+ROUND :  179
+./players/33.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.5000%
+./players/24.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4157%
+./bin/play.rb ./players/36.rb   ./players/34.rb 0
+ROUND :  182
+./players/36.rb HIT RATE : 0.1868%, MISS RATE : 0.8132%, FIX RATE 0.4396%
+./players/34.rb HIT RATE : 0.1648%, MISS RATE : 0.8352%, FIX RATE 0.5495%
+./bin/play.rb ./players/26.rb   ./players/29.rb 0
+ROUND :  195
+./players/26.rb HIT RATE : 0.1633%, MISS RATE : 0.8265%, FIX RATE 0.4898%
+./players/29.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.2577%
+./bin/play.rb ./players/31.rb   ./players/30.rb 0
+ROUND :  195
+./players/31.rb HIT RATE : 0.1633%, MISS RATE : 0.8265%, FIX RATE 0.4490%
+./players/30.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.4742%
+./bin/play.rb ./players/33.rb   ./players/39.rb 0
+ROUND :  161
+./players/33.rb HIT RATE : 0.1728%, MISS RATE : 0.8148%, FIX RATE 0.4938%
+./players/39.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.5250%
+./bin/play.rb ./players/33.rb   ./players/26.rb 0
+ROUND :  186
+./players/33.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.4839%
+./players/26.rb HIT RATE : 0.1505%, MISS RATE : 0.8495%, FIX RATE 0.4624%
+./bin/play.rb ./players/26.rb   ./players/34.rb 0
+ROUND :  184
+./players/26.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.4565%
+./players/34.rb HIT RATE : 0.1413%, MISS RATE : 0.8587%, FIX RATE 0.5435%
+./bin/play.rb ./players/36.rb   ./players/27.rb 0
+ROUND :  157
+./players/36.rb HIT RATE : 0.1646%, MISS RATE : 0.8228%, FIX RATE 0.4051%
+./players/27.rb HIT RATE : 0.2179%, MISS RATE : 0.7949%, FIX RATE 0.3205%
+./bin/play.rb ./players/40.rb   ./players/39.rb 0
+ROUND :  187
+./players/40.rb HIT RATE : 0.1702%, MISS RATE : 0.8191%, FIX RATE 0.5106%
+./players/39.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.5376%
+./bin/play.rb ./players/34.rb   ./players/28.rb 0
+ROUND :  188
+./players/34.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.5532%
+./players/28.rb HIT RATE : 0.1596%, MISS RATE : 0.8404%, FIX RATE 0.5106%
+./bin/play.rb ./players/37.rb   ./players/32.rb 0
+ROUND :  188
+./players/37.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.4787%
+./players/32.rb HIT RATE : 0.1702%, MISS RATE : 0.8298%, FIX RATE 0.7553%
+./bin/play.rb ./players/32.rb   ./players/25.rb 0
+ROUND :  195
+./players/32.rb HIT RATE : 0.1633%, MISS RATE : 0.8265%, FIX RATE 0.7653%
+./players/25.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.3608%
+./crossover 31 23 41 42
+./crossover 23 31 43 44
+./crossover 25 37 45 46
+./crossover 23 36 47 48
+./crossover 26 24 49 50
+./crossover 36 29 51 52
+./crossover 31 33 53 54
+./crossover 26 27 55 56
+./crossover 40 28 57 58
+./crossover 37 25 59 60
+GENERATION :  2
+POPULATION :  [41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+./bin/play.rb ./players/51.rb   ./players/56.rb 0
+ROUND :  186
+./players/51.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.8387%
+./players/56.rb HIT RATE : 0.1613%, MISS RATE : 0.8387%, FIX RATE 0.5376%
+./bin/play.rb ./players/59.rb   ./players/58.rb 0
+ROUND :  170
+./players/59.rb HIT RATE : 0.2000%, MISS RATE : 0.8000%, FIX RATE 0.5059%
+./players/58.rb HIT RATE : 0.1647%, MISS RATE : 0.8353%, FIX RATE 0.4824%
+./bin/play.rb ./players/42.rb   ./players/52.rb 0
+ROUND :  198
+./players/42.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.4949%
+./players/52.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.7172%
+./bin/play.rb ./players/47.rb   ./players/57.rb 0
+ROUND :  171
+./players/47.rb HIT RATE : 0.1628%, MISS RATE : 0.8256%, FIX RATE 0.4767%
+./players/57.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.4353%
+./bin/play.rb ./players/53.rb   ./players/45.rb 0
+ROUND :  169
+./players/53.rb HIT RATE : 0.1647%, MISS RATE : 0.8235%, FIX RATE 0.5882%
+./players/45.rb HIT RATE : 0.2024%, MISS RATE : 0.8095%, FIX RATE 0.4643%
+./bin/play.rb ./players/60.rb   ./players/46.rb 0
+ROUND :  186
+./players/60.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.5054%
+./players/46.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.8065%
+./bin/play.rb ./players/58.rb   ./players/51.rb 0
+ROUND :  191
+./players/58.rb HIT RATE : 0.1667%, MISS RATE : 0.8229%, FIX RATE 0.5104%
+./players/51.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.8316%
+./bin/play.rb ./players/48.rb   ./players/53.rb 0
+ROUND :  172
+./players/48.rb HIT RATE : 0.1977%, MISS RATE : 0.8023%, FIX RATE 0.3256%
+./players/53.rb HIT RATE : 0.1744%, MISS RATE : 0.8256%, FIX RATE 0.5930%
+./bin/play.rb ./players/58.rb   ./players/46.rb 0
+ROUND :  175
+./players/58.rb HIT RATE : 0.1818%, MISS RATE : 0.8068%, FIX RATE 0.4773%
+./players/46.rb HIT RATE : 0.1954%, MISS RATE : 0.8161%, FIX RATE 0.7931%
+./bin/play.rb ./players/53.rb   ./players/59.rb 0
+ROUND :  191
+./players/53.rb HIT RATE : 0.1562%, MISS RATE : 0.8333%, FIX RATE 0.6250%
+./players/59.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.5368%
+./bin/play.rb ./players/44.rb   ./players/59.rb 0
+ROUND :  167
+./players/44.rb HIT RATE : 0.1667%, MISS RATE : 0.8214%, FIX RATE 0.5357%
+./players/59.rb HIT RATE : 0.2048%, MISS RATE : 0.8072%, FIX RATE 0.5181%
+./bin/play.rb ./players/57.rb   ./players/58.rb 0
+ROUND :  181
+./players/57.rb HIT RATE : 0.1538%, MISS RATE : 0.8352%, FIX RATE 0.4396%
+./players/58.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.4778%
+./bin/play.rb ./players/41.rb   ./players/43.rb 0
+ROUND :  173
+./players/41.rb HIT RATE : 0.1379%, MISS RATE : 0.8506%, FIX RATE 0.8391%
+./players/43.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.5581%
+./bin/play.rb ./players/57.rb   ./players/60.rb 0
+ROUND :  180
+./players/57.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.4444%
+./players/60.rb HIT RATE : 0.1556%, MISS RATE : 0.8444%, FIX RATE 0.5000%
+./bin/play.rb ./players/45.rb   ./players/54.rb 0
+ROUND :  184
+./players/45.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.4783%
+./players/54.rb HIT RATE : 0.1739%, MISS RATE : 0.8261%, FIX RATE 0.6087%
+./bin/play.rb ./players/44.rb   ./players/46.rb 0
+ROUND :  169
+./players/44.rb HIT RATE : 0.1647%, MISS RATE : 0.8235%, FIX RATE 0.5412%
+./players/46.rb HIT RATE : 0.2024%, MISS RATE : 0.8095%, FIX RATE 0.7857%
+./bin/play.rb ./players/43.rb   ./players/45.rb 0
+ROUND :  192
+./players/43.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.5625%
+./players/45.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.4792%
+./bin/play.rb ./players/57.rb   ./players/53.rb 0
+ROUND :  191
+./players/57.rb HIT RATE : 0.1667%, MISS RATE : 0.8229%, FIX RATE 0.4688%
+./players/53.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.6211%
+./bin/play.rb ./players/60.rb   ./players/45.rb 0
+ROUND :  199
+./players/60.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.5000%
+./players/45.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.4949%
+./bin/play.rb ./players/42.rb   ./players/56.rb 0
+ROUND :  190
+./players/42.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.5053%
+./players/56.rb HIT RATE : 0.1579%, MISS RATE : 0.8421%, FIX RATE 0.5368%
+./crossover 56 58 61 62
+./crossover 42 57 63 64
+./crossover 45 60 65 66
+./crossover 58 48 67 68
+./crossover 58 59 69 70
+./crossover 59 57 71 72
+./crossover 43 57 73 74
+./crossover 45 44 75 76
+./crossover 45 57 77 78
+./crossover 45 42 79 80
+GENERATION :  3
+POPULATION :  [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+./bin/play.rb ./players/75.rb   ./players/77.rb 0
+ROUND :  179
+./players/75.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.8444%
+./players/77.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.3596%
+./bin/play.rb ./players/64.rb   ./players/76.rb 0
+ROUND :  168
+./players/64.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.5952%
+./players/76.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.8214%
+./bin/play.rb ./players/65.rb   ./players/78.rb 0
+ROUND :  191
+./players/65.rb HIT RATE : 0.1667%, MISS RATE : 0.8229%, FIX RATE 0.4792%
+./players/78.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.4632%
+./bin/play.rb ./players/69.rb   ./players/65.rb 0
+ROUND :  192
+./players/69.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.5833%
+./players/65.rb HIT RATE : 0.1562%, MISS RATE : 0.8438%, FIX RATE 0.4792%
+./bin/play.rb ./players/79.rb   ./players/73.rb 0
+ROUND :  170
+./players/79.rb HIT RATE : 0.2000%, MISS RATE : 0.8000%, FIX RATE 0.5647%
+./players/73.rb HIT RATE : 0.1882%, MISS RATE : 0.8118%, FIX RATE 0.4235%
+./bin/play.rb ./players/67.rb   ./players/78.rb 0
+ROUND :  194
+./players/67.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.5567%
+./players/78.rb HIT RATE : 0.1546%, MISS RATE : 0.8454%, FIX RATE 0.4639%
+./bin/play.rb ./players/71.rb   ./players/68.rb 0
+ROUND :  194
+./players/71.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.4330%
+./players/68.rb HIT RATE : 0.1546%, MISS RATE : 0.8454%, FIX RATE 0.5052%
+./bin/play.rb ./players/66.rb   ./players/71.rb 0
+ROUND :  192
+./players/66.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.4896%
+./players/71.rb HIT RATE : 0.1562%, MISS RATE : 0.8438%, FIX RATE 0.4271%
+./bin/play.rb ./players/74.rb   ./players/77.rb 0
+ROUND :  188
+./players/74.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.5319%
+./players/77.rb HIT RATE : 0.1596%, MISS RATE : 0.8404%, FIX RATE 0.3723%
+./bin/play.rb ./players/74.rb   ./players/75.rb 0
+ROUND :  187
+./players/74.rb HIT RATE : 0.1702%, MISS RATE : 0.8191%, FIX RATE 0.5319%
+./players/75.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.8495%
+./bin/play.rb ./players/64.rb   ./players/74.rb 0
+ROUND :  181
+./players/64.rb HIT RATE : 0.1429%, MISS RATE : 0.8462%, FIX RATE 0.6154%
+./players/74.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.5333%
+./bin/play.rb ./players/66.rb   ./players/71.rb 0
+ROUND :  192
+./players/66.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.4896%
+./players/71.rb HIT RATE : 0.1562%, MISS RATE : 0.8438%, FIX RATE 0.4271%
+./bin/play.rb ./players/75.rb   ./players/64.rb 0
+ROUND :  165
+./players/75.rb HIT RATE : 0.1687%, MISS RATE : 0.8193%, FIX RATE 0.8313%
+./players/64.rb HIT RATE : 0.2073%, MISS RATE : 0.8049%, FIX RATE 0.5976%
+./bin/play.rb ./players/71.rb   ./players/77.rb 0
+ROUND :  196
+./players/71.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.4388%
+./players/77.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.3878%
+./bin/play.rb ./players/61.rb   ./players/64.rb 0
+ROUND :  146
+./players/61.rb HIT RATE : 0.2329%, MISS RATE : 0.7671%, FIX RATE 0.3836%
+./players/64.rb HIT RATE : 0.1507%, MISS RATE : 0.8493%, FIX RATE 0.5479%
+./bin/play.rb ./players/75.rb   ./players/64.rb 0
+ROUND :  165
+./players/75.rb HIT RATE : 0.1687%, MISS RATE : 0.8193%, FIX RATE 0.8313%
+./players/64.rb HIT RATE : 0.2073%, MISS RATE : 0.8049%, FIX RATE 0.5976%
+./bin/play.rb ./players/66.rb   ./players/62.rb 0
+ROUND :  156
+./players/66.rb HIT RATE : 0.2179%, MISS RATE : 0.7821%, FIX RATE 0.4872%
+./players/62.rb HIT RATE : 0.1282%, MISS RATE : 0.8718%, FIX RATE 0.5641%
+./bin/play.rb ./players/67.rb   ./players/75.rb 0
+ROUND :  180
+./players/67.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.5222%
+./players/75.rb HIT RATE : 0.1556%, MISS RATE : 0.8444%, FIX RATE 0.8444%
+./bin/play.rb ./players/79.rb   ./players/68.rb 0
+ROUND :  189
+./players/79.rb HIT RATE : 0.1684%, MISS RATE : 0.8211%, FIX RATE 0.5789%
+./players/68.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.5000%
+./bin/play.rb ./players/63.rb   ./players/80.rb 0
+ROUND :  197
+./players/63.rb HIT RATE : 0.1515%, MISS RATE : 0.8384%, FIX RATE 0.2929%
+./players/80.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.3980%
+./bin/play.rb ./players/61.rb   ./players/63.rb 0
+ROUND :  180
+./players/61.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.4667%
+./players/63.rb HIT RATE : 0.1778%, MISS RATE : 0.8222%, FIX RATE 0.2556%
+./bin/play.rb ./players/75.rb   ./players/65.rb 0
+ROUND :  179
+./players/75.rb HIT RATE : 0.1556%, MISS RATE : 0.8333%, FIX RATE 0.8444%
+./players/65.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4607%
+./crossover 77 64 81 82
+./crossover 78 65 83 84
+./crossover 73 78 85 86
+./crossover 71 77 87 88
+./crossover 74 71 89 90
+./crossover 64 77 91 92
+./crossover 61 64 93 94
+./crossover 66 67 95 96
+./crossover 68 63 97 98
+./crossover 63 65 99 100
+GENERATION :  4
+POPULATION :  [81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+./bin/play.rb ./players/84.rb   ./players/99.rb 0
+ROUND :  186
+./players/84.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.6129%
+./players/99.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.4624%
+./bin/play.rb ./players/98.rb   ./players/84.rb 0
+ROUND :  179
+./players/98.rb HIT RATE : 0.1444%, MISS RATE : 0.8444%, FIX RATE 0.4667%
+./players/84.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.5955%
+./bin/play.rb ./players/96.rb   ./players/97.rb 0
+ROUND :  193
+./players/96.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.8557%
+./players/97.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.7708%
+./bin/play.rb ./players/96.rb   ./players/97.rb 0
+ROUND :  193
+./players/96.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.8557%
+./players/97.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.7708%
+./bin/play.rb ./players/95.rb   ./players/94.rb 0
+ROUND :  170
+./players/95.rb HIT RATE : 0.2000%, MISS RATE : 0.8000%, FIX RATE 0.8471%
+./players/94.rb HIT RATE : 0.1765%, MISS RATE : 0.8235%, FIX RATE 0.6235%
+./bin/play.rb ./players/86.rb   ./players/82.rb 0
+ROUND :  184
+./players/86.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.4891%
+./players/82.rb HIT RATE : 0.1630%, MISS RATE : 0.8370%, FIX RATE 0.5652%
+./bin/play.rb ./players/82.rb   ./players/93.rb 0
+ROUND :  171
+./players/82.rb HIT RATE : 0.1395%, MISS RATE : 0.8488%, FIX RATE 0.5581%
+./players/93.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.5647%
+./bin/play.rb ./players/98.rb   ./players/86.rb 0
+ROUND :  171
+./players/98.rb HIT RATE : 0.1628%, MISS RATE : 0.8256%, FIX RATE 0.4535%
+./players/86.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.4471%
+./bin/play.rb ./players/87.rb   ./players/95.rb 0
+ROUND :  155
+./players/87.rb HIT RATE : 0.1538%, MISS RATE : 0.8333%, FIX RATE 0.4487%
+./players/95.rb HIT RATE : 0.2208%, MISS RATE : 0.7922%, FIX RATE 0.8312%
+./bin/play.rb ./players/86.rb   ./players/91.rb 0
+ROUND :  184
+./players/86.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.4891%
+./players/91.rb HIT RATE : 0.1522%, MISS RATE : 0.8478%, FIX RATE 0.5652%
+./bin/play.rb ./players/89.rb   ./players/94.rb 0
+ROUND :  159
+./players/89.rb HIT RATE : 0.1750%, MISS RATE : 0.8125%, FIX RATE 0.1375%
+./players/94.rb HIT RATE : 0.2152%, MISS RATE : 0.7975%, FIX RATE 0.6076%
+./bin/play.rb ./players/87.rb   ./players/96.rb 0
+ROUND :  179
+./players/87.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.5000%
+./players/96.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.8427%
+./bin/play.rb ./players/97.rb   ./players/100.rb 0
+ROUND :  165
+./players/97.rb HIT RATE : 0.1566%, MISS RATE : 0.8313%, FIX RATE 0.7590%
+./players/100.rb HIT RATE : 0.2073%, MISS RATE : 0.8049%, FIX RATE 0.2073%
+./bin/play.rb ./players/92.rb   ./players/99.rb 0
+ROUND :  191
+./players/92.rb HIT RATE : 0.1667%, MISS RATE : 0.8229%, FIX RATE 0.4479%
+./players/99.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.4737%
+./bin/play.rb ./players/96.rb   ./players/88.rb 0
+ROUND :  181
+./players/96.rb HIT RATE : 0.1538%, MISS RATE : 0.8352%, FIX RATE 0.8462%
+./players/88.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.9111%
+./bin/play.rb ./players/98.rb   ./players/94.rb 0
+ROUND :  151
+./players/98.rb HIT RATE : 0.1842%, MISS RATE : 0.8026%, FIX RATE 0.4342%
+./players/94.rb HIT RATE : 0.2267%, MISS RATE : 0.7867%, FIX RATE 0.6133%
+./bin/play.rb ./players/99.rb   ./players/97.rb 0
+ROUND :  130
+./players/99.rb HIT RATE : 0.2615%, MISS RATE : 0.7385%, FIX RATE 0.4462%
+./players/97.rb HIT RATE : 0.1231%, MISS RATE : 0.8769%, FIX RATE 0.7231%
+./bin/play.rb ./players/100.rb   ./players/92.rb 0
+ROUND :  174
+./players/100.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.2529%
+./players/92.rb HIT RATE : 0.1839%, MISS RATE : 0.8161%, FIX RATE 0.4023%
+./bin/play.rb ./players/89.rb   ./players/85.rb 0
+ROUND :  188
+./players/89.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.1489%
+./players/85.rb HIT RATE : 0.1596%, MISS RATE : 0.8404%, FIX RATE 0.4894%
+./bin/play.rb ./players/85.rb   ./players/100.rb 0
+ROUND :  179
+./players/85.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.4778%
+./players/100.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.2584%
+./bin/play.rb ./players/84.rb   ./players/100.rb 0
+ROUND :  181
+./players/84.rb HIT RATE : 0.1648%, MISS RATE : 0.8242%, FIX RATE 0.6044%
+./players/100.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.2556%
+./bin/play.rb ./players/91.rb   ./players/88.rb 0
+ROUND :  184
+./players/91.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.5652%
+./players/88.rb HIT RATE : 0.1739%, MISS RATE : 0.8261%, FIX RATE 0.9130%
+./crossover 99 98 101 102
+./crossover 97 94 103 104
+./crossover 86 82 105 106
+./crossover 86 87 107 108
+./crossover 86 89 109 110
+./crossover 87 100 111 112
+./crossover 92 96 113 114
+./crossover 98 99 115 116
+./crossover 100 89 117 118
+./crossover 100 91 119 120
+GENERATION :  5
+POPULATION :  [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
+./bin/play.rb ./players/120.rb   ./players/109.rb 0
+ROUND :  157
+./players/120.rb HIT RATE : 0.1519%, MISS RATE : 0.8354%, FIX RATE 0.3797%
+./players/109.rb HIT RATE : 0.2179%, MISS RATE : 0.7949%, FIX RATE 0.1410%
+./bin/play.rb ./players/112.rb   ./players/103.rb 0
+ROUND :  172
+./players/112.rb HIT RATE : 0.1977%, MISS RATE : 0.8023%, FIX RATE 0.4767%
+./players/103.rb HIT RATE : 0.1512%, MISS RATE : 0.8488%, FIX RATE 0.4419%
+./bin/play.rb ./players/118.rb   ./players/103.rb 0
+ROUND :  180
+./players/118.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.2556%
+./players/103.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.4667%
+./bin/play.rb ./players/114.rb   ./players/115.rb 0
+ROUND :  164
+./players/114.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.3902%
+./players/115.rb HIT RATE : 0.1707%, MISS RATE : 0.8293%, FIX RATE 0.5244%
+./bin/play.rb ./players/115.rb   ./players/108.rb 0
+ROUND :  167
+./players/115.rb HIT RATE : 0.1667%, MISS RATE : 0.8214%, FIX RATE 0.5238%
+./players/108.rb HIT RATE : 0.2048%, MISS RATE : 0.8072%, FIX RATE 0.9277%
+./bin/play.rb ./players/111.rb   ./players/118.rb 0
+ROUND :  189
+./players/111.rb HIT RATE : 0.1579%, MISS RATE : 0.8316%, FIX RATE 0.2737%
+./players/118.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.2660%
+./bin/play.rb ./players/106.rb   ./players/119.rb 0
+ROUND :  158
+./players/106.rb HIT RATE : 0.2152%, MISS RATE : 0.7848%, FIX RATE 0.4684%
+./players/119.rb HIT RATE : 0.1646%, MISS RATE : 0.8354%, FIX RATE 0.5190%
+./bin/play.rb ./players/108.rb   ./players/101.rb 0
+ROUND :  160
+./players/108.rb HIT RATE : 0.2125%, MISS RATE : 0.7875%, FIX RATE 0.9250%
+./players/101.rb HIT RATE : 0.1875%, MISS RATE : 0.8125%, FIX RATE 0.4875%
+./bin/play.rb ./players/106.rb   ./players/101.rb 0
+ROUND :  166
+./players/106.rb HIT RATE : 0.2048%, MISS RATE : 0.7952%, FIX RATE 0.4940%
+./players/101.rb HIT RATE : 0.1566%, MISS RATE : 0.8434%, FIX RATE 0.4819%
+./bin/play.rb ./players/105.rb   ./players/102.rb 0
+ROUND :  184
+./players/105.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.5326%
+./players/102.rb HIT RATE : 0.1304%, MISS RATE : 0.8696%, FIX RATE 0.5326%
+./bin/play.rb ./players/104.rb   ./players/118.rb 0
+ROUND :  174
+./players/104.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.4253%
+./players/118.rb HIT RATE : 0.1839%, MISS RATE : 0.8161%, FIX RATE 0.2529%
+./bin/play.rb ./players/107.rb   ./players/113.rb 0
+ROUND :  190
+./players/107.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.3474%
+./players/113.rb HIT RATE : 0.1579%, MISS RATE : 0.8421%, FIX RATE 0.3368%
+./bin/play.rb ./players/109.rb   ./players/106.rb 0
+ROUND :  164
+./players/109.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.1341%
+./players/106.rb HIT RATE : 0.1463%, MISS RATE : 0.8537%, FIX RATE 0.4878%
+./bin/play.rb ./players/120.rb   ./players/105.rb 0
+ROUND :  173
+./players/120.rb HIT RATE : 0.1724%, MISS RATE : 0.8161%, FIX RATE 0.4368%
+./players/105.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.5349%
+./bin/play.rb ./players/116.rb   ./players/115.rb 0
+ROUND :  153
+./players/116.rb HIT RATE : 0.1429%, MISS RATE : 0.8442%, FIX RATE 0.3766%
+./players/115.rb HIT RATE : 0.2237%, MISS RATE : 0.7895%, FIX RATE 0.5263%
+./bin/play.rb ./players/108.rb   ./players/109.rb 0
+ROUND :  139
+./players/108.rb HIT RATE : 0.1429%, MISS RATE : 0.8429%, FIX RATE 0.9143%
+./players/109.rb HIT RATE : 0.2464%, MISS RATE : 0.7681%, FIX RATE 0.0870%
+./bin/play.rb ./players/108.rb   ./players/118.rb 0
+ROUND :  176
+./players/108.rb HIT RATE : 0.1932%, MISS RATE : 0.8068%, FIX RATE 0.9318%
+./players/118.rb HIT RATE : 0.1705%, MISS RATE : 0.8295%, FIX RATE 0.2614%
+./bin/play.rb ./players/101.rb   ./players/103.rb 0
+ROUND :  188
+./players/101.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.5106%
+./players/103.rb HIT RATE : 0.1489%, MISS RATE : 0.8511%, FIX RATE 0.4894%
+./bin/play.rb ./players/101.rb   ./players/109.rb 0
+ROUND :  164
+./players/101.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.4756%
+./players/109.rb HIT RATE : 0.1951%, MISS RATE : 0.8049%, FIX RATE 0.1341%
+./bin/play.rb ./players/120.rb   ./players/111.rb 0
+ROUND :  186
+./players/120.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.4516%
+./players/111.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.2581%
+./crossover 109 103 121 122
+./crossover 118 114 123 124
+./crossover 115 118 125 126
+./crossover 106 101 127 128
+./crossover 101 102 129 130
+./crossover 118 113 131 132
+./crossover 109 120 133 134
+./crossover 116 109 135 136
+./crossover 118 103 137 138
+./crossover 109 111 139 140
+GENERATION :  6
+POPULATION :  [121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140]
+./bin/play.rb ./players/131.rb   ./players/134.rb 0
+ROUND :  199
+./players/131.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.5100%
+./players/134.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.3939%
+./bin/play.rb ./players/122.rb   ./players/138.rb 0
+ROUND :  185
+./players/122.rb HIT RATE : 0.1505%, MISS RATE : 0.8387%, FIX RATE 0.2796%
+./players/138.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.8478%
+./bin/play.rb ./players/132.rb   ./players/126.rb 0
+ROUND :  183
+./players/132.rb HIT RATE : 0.1630%, MISS RATE : 0.8261%, FIX RATE 0.5000%
+./players/126.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.5055%
+./bin/play.rb ./players/140.rb   ./players/131.rb 0
+ROUND :  185
+./players/140.rb HIT RATE : 0.1505%, MISS RATE : 0.8387%, FIX RATE 0.5699%
+./players/131.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.4783%
+./bin/play.rb ./players/134.rb   ./players/135.rb 0
+ROUND :  183
+./players/134.rb HIT RATE : 0.1304%, MISS RATE : 0.8587%, FIX RATE 0.3696%
+./players/135.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.3956%
+./bin/play.rb ./players/121.rb   ./players/130.rb 0
+ROUND :  158
+./players/121.rb HIT RATE : 0.2152%, MISS RATE : 0.7848%, FIX RATE 0.4810%
+./players/130.rb HIT RATE : 0.1519%, MISS RATE : 0.8481%, FIX RATE 0.4430%
+./bin/play.rb ./players/127.rb   ./players/139.rb 0
+ROUND :  179
+./players/127.rb HIT RATE : 0.1556%, MISS RATE : 0.8333%, FIX RATE 0.5222%
+./players/139.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.3708%
+./bin/play.rb ./players/129.rb   ./players/133.rb 0
+ROUND :  196
+./players/129.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.4796%
+./players/133.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.4082%
+./bin/play.rb ./players/136.rb   ./players/129.rb 0
+ROUND :  189
+./players/136.rb HIT RATE : 0.1474%, MISS RATE : 0.8421%, FIX RATE 0.5368%
+./players/129.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.4681%
+./bin/play.rb ./players/128.rb   ./players/121.rb 0
+ROUND :  158
+./players/128.rb HIT RATE : 0.2152%, MISS RATE : 0.7848%, FIX RATE 0.5190%
+./players/121.rb HIT RATE : 0.1899%, MISS RATE : 0.8101%, FIX RATE 0.4810%
+./bin/play.rb ./players/135.rb   ./players/136.rb 0
+ROUND :  185
+./players/135.rb HIT RATE : 0.1613%, MISS RATE : 0.8280%, FIX RATE 0.4086%
+./players/136.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5326%
+./bin/play.rb ./players/132.rb   ./players/129.rb 0
+ROUND :  162
+./players/132.rb HIT RATE : 0.2099%, MISS RATE : 0.7901%, FIX RATE 0.4691%
+./players/129.rb HIT RATE : 0.1728%, MISS RATE : 0.8272%, FIX RATE 0.4691%
+./bin/play.rb ./players/123.rb   ./players/139.rb 0
+ROUND :  170
+./players/123.rb HIT RATE : 0.2000%, MISS RATE : 0.8000%, FIX RATE 0.3882%
+./players/139.rb HIT RATE : 0.1882%, MISS RATE : 0.8118%, FIX RATE 0.3765%
+./bin/play.rb ./players/129.rb   ./players/123.rb 0
+ROUND :  196
+./players/129.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.4796%
+./players/123.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.4490%
+./bin/play.rb ./players/133.rb   ./players/136.rb 0
+ROUND :  169
+./players/133.rb HIT RATE : 0.1412%, MISS RATE : 0.8471%, FIX RATE 0.3765%
+./players/136.rb HIT RATE : 0.2024%, MISS RATE : 0.8095%, FIX RATE 0.5119%
+./bin/play.rb ./players/131.rb   ./players/137.rb 0
+ROUND :  190
+./players/131.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.4947%
+./players/137.rb HIT RATE : 0.1684%, MISS RATE : 0.8316%, FIX RATE 0.5053%
+./bin/play.rb ./players/128.rb   ./players/121.rb 0
+ROUND :  158
+./players/128.rb HIT RATE : 0.2152%, MISS RATE : 0.7848%, FIX RATE 0.5190%
+./players/121.rb HIT RATE : 0.1899%, MISS RATE : 0.8101%, FIX RATE 0.4810%
+./bin/play.rb ./players/137.rb   ./players/123.rb 0
+ROUND :  179
+./players/137.rb HIT RATE : 0.1556%, MISS RATE : 0.8333%, FIX RATE 0.4778%
+./players/123.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4045%
+./bin/play.rb ./players/126.rb   ./players/122.rb 0
+ROUND :  188
+./players/126.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.5000%
+./players/122.rb HIT RATE : 0.1596%, MISS RATE : 0.8404%, FIX RATE 0.2872%
+./bin/play.rb ./players/125.rb   ./players/138.rb 0
+ROUND :  170
+./players/125.rb HIT RATE : 0.2000%, MISS RATE : 0.8000%, FIX RATE 0.5176%
+./players/138.rb HIT RATE : 0.1882%, MISS RATE : 0.8118%, FIX RATE 0.8353%
+./crossover 134 122 141 142
+./crossover 132 131 143 144
+./crossover 134 130 145 146
+./crossover 139 133 147 148
+./crossover 129 121 149 150
+./crossover 135 129 151 152
+./crossover 139 123 153 154
+./crossover 133 131 155 156
+./crossover 121 123 157 158
+./crossover 122 125 159 160
+GENERATION :  7
+POPULATION :  [141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+./bin/play.rb ./players/156.rb   ./players/153.rb 0
+ROUND :  179
+./players/156.rb HIT RATE : 0.1778%, MISS RATE : 0.8111%, FIX RATE 0.3000%
+./players/153.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.8427%
+./bin/play.rb ./players/154.rb   ./players/149.rb 0
+ROUND :  165
+./players/154.rb HIT RATE : 0.1807%, MISS RATE : 0.8072%, FIX RATE 0.7831%
+./players/149.rb HIT RATE : 0.2073%, MISS RATE : 0.8049%, FIX RATE 0.5244%
+./bin/play.rb ./players/141.rb   ./players/157.rb 0
+ROUND :  193
+./players/141.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.7010%
+./players/157.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.4479%
+./bin/play.rb ./players/156.rb   ./players/157.rb 0
+ROUND :  167
+./players/156.rb HIT RATE : 0.1667%, MISS RATE : 0.8214%, FIX RATE 0.2857%
+./players/157.rb HIT RATE : 0.2048%, MISS RATE : 0.8072%, FIX RATE 0.3855%
+./bin/play.rb ./players/148.rb   ./players/159.rb 0
+ROUND :  168
+./players/148.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.1310%
+./players/159.rb HIT RATE : 0.1786%, MISS RATE : 0.8214%, FIX RATE 0.2976%
+./bin/play.rb ./players/158.rb   ./players/155.rb 0
+ROUND :  185
+./players/158.rb HIT RATE : 0.1290%, MISS RATE : 0.8602%, FIX RATE 0.5054%
+./players/155.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.7174%
+./bin/play.rb ./players/149.rb   ./players/150.rb 0
+ROUND :  179
+./players/149.rb HIT RATE : 0.1778%, MISS RATE : 0.8111%, FIX RATE 0.5333%
+./players/150.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.5618%
+./bin/play.rb ./players/151.rb   ./players/142.rb 0
+ROUND :  197
+./players/151.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.6465%
+./players/142.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.5306%
+./bin/play.rb ./players/146.rb   ./players/156.rb 0
+ROUND :  191
+./players/146.rb HIT RATE : 0.1562%, MISS RATE : 0.8333%, FIX RATE 0.6979%
+./players/156.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.3368%
+./bin/play.rb ./players/152.rb   ./players/158.rb 0
+ROUND :  176
+./players/152.rb HIT RATE : 0.1932%, MISS RATE : 0.8068%, FIX RATE 0.5114%
+./players/158.rb HIT RATE : 0.1705%, MISS RATE : 0.8295%, FIX RATE 0.5000%
+./bin/play.rb ./players/148.rb   ./players/145.rb 0
+ROUND :  192
+./players/148.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.1562%
+./players/145.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.4688%
+./bin/play.rb ./players/151.rb   ./players/146.rb 0
+ROUND :  189
+./players/151.rb HIT RATE : 0.1684%, MISS RATE : 0.8211%, FIX RATE 0.6421%
+./players/146.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.6915%
+./bin/play.rb ./players/160.rb   ./players/148.rb 0
+ROUND :  179
+./players/160.rb HIT RATE : 0.1444%, MISS RATE : 0.8444%, FIX RATE 0.4778%
+./players/148.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.1348%
+./bin/play.rb ./players/152.rb   ./players/148.rb 0
+ROUND :  177
+./players/152.rb HIT RATE : 0.1236%, MISS RATE : 0.8652%, FIX RATE 0.5169%
+./players/148.rb HIT RATE : 0.1932%, MISS RATE : 0.8182%, FIX RATE 0.1364%
+./bin/play.rb ./players/158.rb   ./players/147.rb 0
+ROUND :  171
+./players/158.rb HIT RATE : 0.1395%, MISS RATE : 0.8488%, FIX RATE 0.4884%
+./players/147.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.6941%
+./bin/play.rb ./players/151.rb   ./players/142.rb 0
+ROUND :  197
+./players/151.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.6465%
+./players/142.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.5306%
+./bin/play.rb ./players/142.rb   ./players/148.rb 0
+ROUND :  172
+./players/142.rb HIT RATE : 0.1977%, MISS RATE : 0.8023%, FIX RATE 0.4884%
+./players/148.rb HIT RATE : 0.1860%, MISS RATE : 0.8140%, FIX RATE 0.1395%
+./bin/play.rb ./players/153.rb   ./players/158.rb 0
+ROUND :  195
+./players/153.rb HIT RATE : 0.1633%, MISS RATE : 0.8265%, FIX RATE 0.8571%
+./players/158.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.5155%
+./bin/play.rb ./players/141.rb   ./players/142.rb 0
+ROUND :  158
+./players/141.rb HIT RATE : 0.2152%, MISS RATE : 0.7848%, FIX RATE 0.6835%
+./players/142.rb HIT RATE : 0.1392%, MISS RATE : 0.8608%, FIX RATE 0.4684%
+./bin/play.rb ./players/157.rb   ./players/143.rb 0
+ROUND :  194
+./players/157.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.4433%
+./players/143.rb HIT RATE : 0.1546%, MISS RATE : 0.8454%, FIX RATE 0.4948%
+./bin/play.rb ./players/147.rb   ./players/150.rb 0
+ROUND :  142
+./players/147.rb HIT RATE : 0.2394%, MISS RATE : 0.7606%, FIX RATE 0.6479%
+./players/150.rb HIT RATE : 0.1127%, MISS RATE : 0.8873%, FIX RATE 0.5634%
+./crossover 156 149 161 162
+./crossover 157 156 163 164
+./crossover 148 158 165 166
+./crossover 149 142 167 168
+./crossover 156 158 169 170
+./crossover 148 151 171 172
+./crossover 148 158 173 174
+./crossover 142 148 175 176
+./crossover 158 142 177 178
+./crossover 157 150 179 180
+GENERATION :  8
+POPULATION :  [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180]
+./bin/play.rb ./players/165.rb   ./players/167.rb 0
+ROUND :  164
+./players/165.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.4756%
+./players/167.rb HIT RATE : 0.1341%, MISS RATE : 0.8659%, FIX RATE 0.3171%
+./bin/play.rb ./players/161.rb   ./players/178.rb 0
+ROUND :  154
+./players/161.rb HIT RATE : 0.2208%, MISS RATE : 0.7792%, FIX RATE 0.4026%
+./players/178.rb HIT RATE : 0.1948%, MISS RATE : 0.8052%, FIX RATE 0.4026%
+./bin/play.rb ./players/170.rb   ./players/175.rb 0
+ROUND :  198
+./players/170.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.1717%
+./players/175.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.5354%
+./bin/play.rb ./players/175.rb   ./players/178.rb 0
+ROUND :  178
+./players/175.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.5393%
+./players/178.rb HIT RATE : 0.1798%, MISS RATE : 0.8202%, FIX RATE 0.4607%
+./bin/play.rb ./players/165.rb   ./players/178.rb 0
+ROUND :  183
+./players/165.rb HIT RATE : 0.1739%, MISS RATE : 0.8152%, FIX RATE 0.4783%
+./players/178.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.4725%
+./bin/play.rb ./players/166.rb   ./players/164.rb 0
+ROUND :  190
+./players/166.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.8526%
+./players/164.rb HIT RATE : 0.1579%, MISS RATE : 0.8421%, FIX RATE 0.6632%
+./bin/play.rb ./players/165.rb   ./players/168.rb 0
+ROUND :  187
+./players/165.rb HIT RATE : 0.1702%, MISS RATE : 0.8191%, FIX RATE 0.4894%
+./players/168.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.5269%
+./bin/play.rb ./players/173.rb   ./players/177.rb 0
+ROUND :  161
+./players/173.rb HIT RATE : 0.1852%, MISS RATE : 0.8025%, FIX RATE 0.5432%
+./players/177.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.5500%
+./bin/play.rb ./players/180.rb   ./players/175.rb 0
+ROUND :  183
+./players/180.rb HIT RATE : 0.1630%, MISS RATE : 0.8261%, FIX RATE 0.8478%
+./players/175.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.5385%
+./bin/play.rb ./players/176.rb   ./players/169.rb 0
+ROUND :  187
+./players/176.rb HIT RATE : 0.1702%, MISS RATE : 0.8191%, FIX RATE 0.7766%
+./players/169.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.5699%
+./bin/play.rb ./players/169.rb   ./players/177.rb 0
+ROUND :  186
+./players/169.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.5699%
+./players/177.rb HIT RATE : 0.1398%, MISS RATE : 0.8602%, FIX RATE 0.5591%
+./bin/play.rb ./players/163.rb   ./players/161.rb 0
+ROUND :  177
+./players/163.rb HIT RATE : 0.1685%, MISS RATE : 0.8202%, FIX RATE 0.5618%
+./players/161.rb HIT RATE : 0.1932%, MISS RATE : 0.8182%, FIX RATE 0.4659%
+./bin/play.rb ./players/174.rb   ./players/166.rb 0
+ROUND :  198
+./players/174.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.5758%
+./players/166.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.8586%
+./bin/play.rb ./players/171.rb   ./players/172.rb 0
+ROUND :  179
+./players/171.rb HIT RATE : 0.1556%, MISS RATE : 0.8333%, FIX RATE 0.6111%
+./players/172.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4944%
+./bin/play.rb ./players/165.rb   ./players/175.rb 0
+ROUND :  175
+./players/165.rb HIT RATE : 0.1818%, MISS RATE : 0.8068%, FIX RATE 0.4773%
+./players/175.rb HIT RATE : 0.1954%, MISS RATE : 0.8161%, FIX RATE 0.5287%
+./bin/play.rb ./players/176.rb   ./players/170.rb 0
+ROUND :  165
+./players/176.rb HIT RATE : 0.1566%, MISS RATE : 0.8313%, FIX RATE 0.7590%
+./players/170.rb HIT RATE : 0.2073%, MISS RATE : 0.8049%, FIX RATE 0.1341%
+./bin/play.rb ./players/169.rb   ./players/180.rb 0
+ROUND :  190
+./players/169.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.5789%
+./players/180.rb HIT RATE : 0.1579%, MISS RATE : 0.8421%, FIX RATE 0.8526%
+./bin/play.rb ./players/176.rb   ./players/163.rb 0
+ROUND :  199
+./players/176.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.7800%
+./players/163.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.5758%
+./bin/play.rb ./players/178.rb   ./players/174.rb 0
+ROUND :  180
+./players/178.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.4667%
+./players/174.rb HIT RATE : 0.1778%, MISS RATE : 0.8222%, FIX RATE 0.5667%
+./bin/play.rb ./players/176.rb   ./players/163.rb 0
+ROUND :  199
+./players/176.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.7800%
+./players/163.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.5758%
+./crossover 167 178 181 182
+./crossover 170 178 183 184
+./crossover 178 164 185 186
+./crossover 165 173 187 188
+./crossover 175 169 189 190
+./crossover 177 161 191 192
+./crossover 174 172 193 194
+./crossover 165 170 195 196
+./crossover 169 163 197 198
+./crossover 178 163 199 200
+GENERATION :  9
+POPULATION :  [181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]
+./bin/play.rb ./players/195.rb   ./players/193.rb 0
+ROUND :  185
+./players/195.rb HIT RATE : 0.1505%, MISS RATE : 0.8387%, FIX RATE 0.3871%
+./players/193.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5109%
+./bin/play.rb ./players/184.rb   ./players/191.rb 0
+ROUND :  172
+./players/184.rb HIT RATE : 0.1977%, MISS RATE : 0.8023%, FIX RATE 0.4884%
+./players/191.rb HIT RATE : 0.1860%, MISS RATE : 0.8140%, FIX RATE 0.5581%
+./bin/play.rb ./players/194.rb   ./players/185.rb 0
+ROUND :  145
+./players/194.rb HIT RATE : 0.1781%, MISS RATE : 0.8082%, FIX RATE 0.5616%
+./players/185.rb HIT RATE : 0.2361%, MISS RATE : 0.7778%, FIX RATE 0.5417%
+./bin/play.rb ./players/200.rb   ./players/193.rb 0
+ROUND :  182
+./players/200.rb HIT RATE : 0.1868%, MISS RATE : 0.8132%, FIX RATE 0.5604%
+./players/193.rb HIT RATE : 0.1648%, MISS RATE : 0.8352%, FIX RATE 0.5055%
+./bin/play.rb ./players/191.rb   ./players/181.rb 0
+ROUND :  152
+./players/191.rb HIT RATE : 0.2237%, MISS RATE : 0.7763%, FIX RATE 0.5526%
+./players/181.rb HIT RATE : 0.1974%, MISS RATE : 0.8026%, FIX RATE 0.4079%
+./bin/play.rb ./players/197.rb   ./players/192.rb 0
+ROUND :  199
+./players/197.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.5400%
+./players/192.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.5253%
+./bin/play.rb ./players/195.rb   ./players/197.rb 0
+ROUND :  198
+./players/195.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.4141%
+./players/197.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.5354%
+./bin/play.rb ./players/189.rb   ./players/194.rb 0
+ROUND :  173
+./players/189.rb HIT RATE : 0.1379%, MISS RATE : 0.8506%, FIX RATE 0.2989%
+./players/194.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.5581%
+./bin/play.rb ./players/196.rb   ./players/184.rb 0
+ROUND :  196
+./players/196.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.2041%
+./players/184.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.5306%
+./bin/play.rb ./players/197.rb   ./players/191.rb 0
+ROUND :  163
+./players/197.rb HIT RATE : 0.1341%, MISS RATE : 0.8537%, FIX RATE 0.5244%
+./players/191.rb HIT RATE : 0.2099%, MISS RATE : 0.8025%, FIX RATE 0.5556%
+./bin/play.rb ./players/198.rb   ./players/194.rb 0
+ROUND :  173
+./players/198.rb HIT RATE : 0.1609%, MISS RATE : 0.8276%, FIX RATE 0.4828%
+./players/194.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.5581%
+./bin/play.rb ./players/195.rb   ./players/198.rb 0
+ROUND :  185
+./players/195.rb HIT RATE : 0.1613%, MISS RATE : 0.8280%, FIX RATE 0.3871%
+./players/198.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5109%
+./bin/play.rb ./players/188.rb   ./players/199.rb 0
+ROUND :  180
+./players/188.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.4889%
+./players/199.rb HIT RATE : 0.1778%, MISS RATE : 0.8222%, FIX RATE 0.5333%
+./bin/play.rb ./players/189.rb   ./players/191.rb 0
+ROUND :  169
+./players/189.rb HIT RATE : 0.1412%, MISS RATE : 0.8471%, FIX RATE 0.2941%
+./players/191.rb HIT RATE : 0.2024%, MISS RATE : 0.8095%, FIX RATE 0.5476%
+./bin/play.rb ./players/190.rb   ./players/197.rb 0
+ROUND :  168
+./players/190.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.8810%
+./players/197.rb HIT RATE : 0.1310%, MISS RATE : 0.8690%, FIX RATE 0.5238%
+./bin/play.rb ./players/199.rb   ./players/181.rb 0
+ROUND :  169
+./players/199.rb HIT RATE : 0.1647%, MISS RATE : 0.8235%, FIX RATE 0.5294%
+./players/181.rb HIT RATE : 0.2024%, MISS RATE : 0.8095%, FIX RATE 0.4167%
+./bin/play.rb ./players/189.rb   ./players/196.rb 0
+ROUND :  159
+./players/189.rb HIT RATE : 0.1625%, MISS RATE : 0.8250%, FIX RATE 0.2875%
+./players/196.rb HIT RATE : 0.2152%, MISS RATE : 0.7975%, FIX RATE 0.1266%
+./bin/play.rb ./players/195.rb   ./players/182.rb 0
+ROUND :  184
+./players/195.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.3804%
+./players/182.rb HIT RATE : 0.1522%, MISS RATE : 0.8478%, FIX RATE 0.7717%
+./bin/play.rb ./players/188.rb   ./players/186.rb 0
+ROUND :  178
+./players/188.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.4831%
+./players/186.rb HIT RATE : 0.1798%, MISS RATE : 0.8202%, FIX RATE 0.5169%
+./bin/play.rb ./players/185.rb   ./players/200.rb 0
+ROUND :  182
+./players/185.rb HIT RATE : 0.1868%, MISS RATE : 0.8132%, FIX RATE 0.6154%
+./players/200.rb HIT RATE : 0.1648%, MISS RATE : 0.8352%, FIX RATE 0.5604%
+./crossover 195 184 201 202
+./crossover 185 193 203 204
+./crossover 181 192 205 206
+./crossover 195 189 207 208
+./crossover 196 197 209 210
+./crossover 198 195 211 212
+./crossover 188 189 213 214
+./crossover 197 181 215 216
+./crossover 196 195 217 218
+./crossover 188 200 219 220
+GENERATION :  10
+POPULATION :  [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220]
+./bin/play.rb ./players/218.rb   ./players/217.rb 0
+ROUND :  174
+./players/218.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.5287%
+./players/217.rb HIT RATE : 0.1609%, MISS RATE : 0.8391%, FIX RATE 0.4713%
+./bin/play.rb ./players/203.rb   ./players/202.rb 0
+ROUND :  193
+./players/203.rb HIT RATE : 0.1546%, MISS RATE : 0.8351%, FIX RATE 0.4330%
+./players/202.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.5312%
+./bin/play.rb ./players/202.rb   ./players/206.rb 0
+ROUND :  183
+./players/202.rb HIT RATE : 0.1630%, MISS RATE : 0.8261%, FIX RATE 0.5326%
+./players/206.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.5824%
+./bin/play.rb ./players/203.rb   ./players/218.rb 0
+ROUND :  171
+./players/203.rb HIT RATE : 0.1395%, MISS RATE : 0.8488%, FIX RATE 0.3837%
+./players/218.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.5294%
+./bin/play.rb ./players/218.rb   ./players/214.rb 0
+ROUND :  178
+./players/218.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.5393%
+./players/214.rb HIT RATE : 0.1573%, MISS RATE : 0.8427%, FIX RATE 0.4831%
+./bin/play.rb ./players/215.rb   ./players/220.rb 0
+ROUND :  139
+./players/215.rb HIT RATE : 0.1571%, MISS RATE : 0.8286%, FIX RATE 0.5143%
+./players/220.rb HIT RATE : 0.2464%, MISS RATE : 0.7681%, FIX RATE 0.5072%
+./bin/play.rb ./players/208.rb   ./players/214.rb 0
+ROUND :  182
+./players/208.rb HIT RATE : 0.1868%, MISS RATE : 0.8132%, FIX RATE 0.5604%
+./players/214.rb HIT RATE : 0.1758%, MISS RATE : 0.8242%, FIX RATE 0.4835%
+./bin/play.rb ./players/215.rb   ./players/216.rb 0
+ROUND :  171
+./players/215.rb HIT RATE : 0.1744%, MISS RATE : 0.8140%, FIX RATE 0.5814%
+./players/216.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.4824%
+./bin/play.rb ./players/208.rb   ./players/201.rb 0
+ROUND :  189
+./players/208.rb HIT RATE : 0.1684%, MISS RATE : 0.8211%, FIX RATE 0.5684%
+./players/201.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.9149%
+./bin/play.rb ./players/201.rb   ./players/220.rb 0
+ROUND :  198
+./players/201.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.9192%
+./players/220.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.5354%
+./bin/play.rb ./players/220.rb   ./players/215.rb 0
+ROUND :  140
+./players/220.rb HIT RATE : 0.2429%, MISS RATE : 0.7571%, FIX RATE 0.5000%
+./players/215.rb HIT RATE : 0.1571%, MISS RATE : 0.8429%, FIX RATE 0.5143%
+./bin/play.rb ./players/208.rb   ./players/213.rb 0
+ROUND :  176
+./players/208.rb HIT RATE : 0.1932%, MISS RATE : 0.8068%, FIX RATE 0.5568%
+./players/213.rb HIT RATE : 0.1818%, MISS RATE : 0.8182%, FIX RATE 0.2955%
+./bin/play.rb ./players/206.rb   ./players/203.rb 0
+ROUND :  196
+./players/206.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.6122%
+./players/203.rb HIT RATE : 0.1531%, MISS RATE : 0.8469%, FIX RATE 0.4388%
+./bin/play.rb ./players/214.rb   ./players/208.rb 0
+ROUND :  181
+./players/214.rb HIT RATE : 0.1648%, MISS RATE : 0.8242%, FIX RATE 0.4835%
+./players/208.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.5667%
+./bin/play.rb ./players/209.rb   ./players/214.rb 0
+ROUND :  180
+./players/209.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.1333%
+./players/214.rb HIT RATE : 0.1556%, MISS RATE : 0.8444%, FIX RATE 0.4889%
+./bin/play.rb ./players/212.rb   ./players/207.rb 0
+ROUND :  189
+./players/212.rb HIT RATE : 0.1368%, MISS RATE : 0.8526%, FIX RATE 0.5789%
+./players/207.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.1596%
+./bin/play.rb ./players/214.rb   ./players/218.rb 0
+ROUND :  177
+./players/214.rb HIT RATE : 0.1573%, MISS RATE : 0.8315%, FIX RATE 0.4831%
+./players/218.rb HIT RATE : 0.1932%, MISS RATE : 0.8182%, FIX RATE 0.5341%
+./bin/play.rb ./players/208.rb   ./players/209.rb 0
+ROUND :  161
+./players/208.rb HIT RATE : 0.1481%, MISS RATE : 0.8395%, FIX RATE 0.5556%
+./players/209.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.1375%
+./bin/play.rb ./players/204.rb   ./players/206.rb 0
+ROUND :  186
+./players/204.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.4516%
+./players/206.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.5914%
+./bin/play.rb ./players/204.rb   ./players/202.rb 0
+ROUND :  180
+./players/204.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.4444%
+./players/202.rb HIT RATE : 0.1778%, MISS RATE : 0.8222%, FIX RATE 0.5333%
+./bin/play.rb ./players/210.rb   ./players/218.rb 0
+ROUND :  164
+./players/210.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.4878%
+./players/218.rb HIT RATE : 0.1829%, MISS RATE : 0.8171%, FIX RATE 0.5244%
+./crossover 217 203 221 222
+./crossover 202 203 223 224
+./crossover 214 220 225 226
+./crossover 214 216 227 228
+./crossover 208 220 229 230
+./crossover 220 213 231 232
+./crossover 203 214 233 234
+./crossover 209 207 235 236
+./crossover 214 209 237 238
+./crossover 204 210 239 240
+GENERATION :  11
+POPULATION :  [221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240]
+./bin/play.rb ./players/240.rb   ./players/225.rb 0
+ROUND :  189
+./players/240.rb HIT RATE : 0.1474%, MISS RATE : 0.8421%, FIX RATE 0.4632%
+./players/225.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.5319%
+./bin/play.rb ./players/231.rb   ./players/237.rb 0
+ROUND :  181
+./players/231.rb HIT RATE : 0.1538%, MISS RATE : 0.8352%, FIX RATE 0.6923%
+./players/237.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.3889%
+./bin/play.rb ./players/228.rb   ./players/223.rb 0
+ROUND :  184
+./players/228.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.5326%
+./players/223.rb HIT RATE : 0.1630%, MISS RATE : 0.8370%, FIX RATE 0.4130%
+./bin/play.rb ./players/240.rb   ./players/239.rb 0
+ROUND :  197
+./players/240.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.4848%
+./players/239.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.5306%
+./bin/play.rb ./players/239.rb   ./players/230.rb 0
+ROUND :  190
+./players/239.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.5263%
+./players/230.rb HIT RATE : 0.1579%, MISS RATE : 0.8421%, FIX RATE 0.5684%
+./bin/play.rb ./players/240.rb   ./players/232.rb 0
+ROUND :  185
+./players/240.rb HIT RATE : 0.1398%, MISS RATE : 0.8495%, FIX RATE 0.4516%
+./players/232.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5543%
+./bin/play.rb ./players/236.rb   ./players/229.rb 0
+ROUND :  177
+./players/236.rb HIT RATE : 0.1573%, MISS RATE : 0.8315%, FIX RATE 0.2921%
+./players/229.rb HIT RATE : 0.1932%, MISS RATE : 0.8182%, FIX RATE 0.5114%
+./bin/play.rb ./players/225.rb   ./players/237.rb 0
+ROUND :  162
+./players/225.rb HIT RATE : 0.2099%, MISS RATE : 0.7901%, FIX RATE 0.5185%
+./players/237.rb HIT RATE : 0.1605%, MISS RATE : 0.8395%, FIX RATE 0.3333%
+./bin/play.rb ./players/233.rb   ./players/221.rb 0
+ROUND :  177
+./players/233.rb HIT RATE : 0.1798%, MISS RATE : 0.8090%, FIX RATE 0.3034%
+./players/221.rb HIT RATE : 0.1932%, MISS RATE : 0.8182%, FIX RATE 0.9091%
+./bin/play.rb ./players/235.rb   ./players/237.rb 0
+ROUND :  175
+./players/235.rb HIT RATE : 0.1477%, MISS RATE : 0.8409%, FIX RATE 0.3295%
+./players/237.rb HIT RATE : 0.1954%, MISS RATE : 0.8161%, FIX RATE 0.3678%
+./bin/play.rb ./players/222.rb   ./players/237.rb 0
+ROUND :  171
+./players/222.rb HIT RATE : 0.1628%, MISS RATE : 0.8256%, FIX RATE 0.8372%
+./players/237.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.3529%
+./bin/play.rb ./players/229.rb   ./players/222.rb 0
+ROUND :  184
+./players/229.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.5109%
+./players/222.rb HIT RATE : 0.1522%, MISS RATE : 0.8478%, FIX RATE 0.8478%
+./bin/play.rb ./players/222.rb   ./players/238.rb 0
+ROUND :  184
+./players/222.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.8478%
+./players/238.rb HIT RATE : 0.1413%, MISS RATE : 0.8587%, FIX RATE 0.5543%
+./bin/play.rb ./players/231.rb   ./players/221.rb 0
+ROUND :  163
+./players/231.rb HIT RATE : 0.1951%, MISS RATE : 0.7927%, FIX RATE 0.6707%
+./players/221.rb HIT RATE : 0.2099%, MISS RATE : 0.8025%, FIX RATE 0.9012%
+./bin/play.rb ./players/226.rb   ./players/238.rb 0
+ROUND :  159
+./players/226.rb HIT RATE : 0.1000%, MISS RATE : 0.8875%, FIX RATE 0.4125%
+./players/238.rb HIT RATE : 0.2152%, MISS RATE : 0.7975%, FIX RATE 0.5570%
+./bin/play.rb ./players/239.rb   ./players/221.rb 0
+ROUND :  138
+./players/239.rb HIT RATE : 0.2464%, MISS RATE : 0.7536%, FIX RATE 0.5072%
+./players/221.rb HIT RATE : 0.1739%, MISS RATE : 0.8261%, FIX RATE 0.8841%
+./bin/play.rb ./players/221.rb   ./players/234.rb 0
+ROUND :  176
+./players/221.rb HIT RATE : 0.1932%, MISS RATE : 0.8068%, FIX RATE 0.9091%
+./players/234.rb HIT RATE : 0.1705%, MISS RATE : 0.8295%, FIX RATE 0.6250%
+./bin/play.rb ./players/229.rb   ./players/226.rb 0
+ROUND :  188
+./players/229.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.5213%
+./players/226.rb HIT RATE : 0.1702%, MISS RATE : 0.8298%, FIX RATE 0.4681%
+./bin/play.rb ./players/224.rb   ./players/227.rb 0
+ROUND :  191
+./players/224.rb HIT RATE : 0.1458%, MISS RATE : 0.8438%, FIX RATE 0.5312%
+./players/227.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.4947%
+./bin/play.rb ./players/230.rb   ./players/233.rb 0
+ROUND :  192
+./players/230.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.5625%
+./players/233.rb HIT RATE : 0.1562%, MISS RATE : 0.8438%, FIX RATE 0.3333%
+./crossover 240 237 241 242
+./crossover 223 240 243 244
+./crossover 239 240 245 246
+./crossover 236 237 247 248
+./crossover 233 235 249 250
+./crossover 237 229 251 252
+./crossover 238 231 253 254
+./crossover 226 239 255 256
+./crossover 234 226 257 258
+./crossover 227 233 259 260
+GENERATION :  12
+POPULATION :  [241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
+./bin/play.rb ./players/249.rb   ./players/252.rb 0
+ROUND :  179
+./players/249.rb HIT RATE : 0.1778%, MISS RATE : 0.8111%, FIX RATE 0.3000%
+./players/252.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4607%
+./bin/play.rb ./players/258.rb   ./players/242.rb 0
+ROUND :  196
+./players/258.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.5306%
+./players/242.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.4184%
+./bin/play.rb ./players/241.rb   ./players/255.rb 0
+ROUND :  194
+./players/241.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.3505%
+./players/255.rb HIT RATE : 0.1546%, MISS RATE : 0.8454%, FIX RATE 0.4536%
+./bin/play.rb ./players/252.rb   ./players/254.rb 0
+ROUND :  156
+./players/252.rb HIT RATE : 0.2179%, MISS RATE : 0.7821%, FIX RATE 0.4231%
+./players/254.rb HIT RATE : 0.1538%, MISS RATE : 0.8462%, FIX RATE 0.6795%
+./bin/play.rb ./players/245.rb   ./players/246.rb 0
+ROUND :  167
+./players/245.rb HIT RATE : 0.1905%, MISS RATE : 0.7976%, FIX RATE 0.5119%
+./players/246.rb HIT RATE : 0.2048%, MISS RATE : 0.8072%, FIX RATE 0.4940%
+./bin/play.rb ./players/256.rb   ./players/243.rb 0
+ROUND :  174
+./players/256.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.4138%
+./players/243.rb HIT RATE : 0.1839%, MISS RATE : 0.8161%, FIX RATE 0.5287%
+./bin/play.rb ./players/259.rb   ./players/242.rb 0
+ROUND :  192
+./players/259.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.3438%
+./players/242.rb HIT RATE : 0.1562%, MISS RATE : 0.8438%, FIX RATE 0.4062%
+./bin/play.rb ./players/251.rb   ./players/253.rb 0
+ROUND :  168
+./players/251.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.3690%
+./players/253.rb HIT RATE : 0.1786%, MISS RATE : 0.8214%, FIX RATE 0.5238%
+./bin/play.rb ./players/243.rb   ./players/241.rb 0
+ROUND :  152
+./players/243.rb HIT RATE : 0.2237%, MISS RATE : 0.7763%, FIX RATE 0.5263%
+./players/241.rb HIT RATE : 0.1842%, MISS RATE : 0.8158%, FIX RATE 0.2763%
+./bin/play.rb ./players/251.rb   ./players/241.rb 0
+ROUND :  161
+./players/251.rb HIT RATE : 0.1852%, MISS RATE : 0.8025%, FIX RATE 0.3827%
+./players/241.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.2875%
+./bin/play.rb ./players/254.rb   ./players/260.rb 0
+ROUND :  186
+./players/254.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.6989%
+./players/260.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.5591%
+./bin/play.rb ./players/256.rb   ./players/259.rb 0
+ROUND :  168
+./players/256.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.3929%
+./players/259.rb HIT RATE : 0.1548%, MISS RATE : 0.8452%, FIX RATE 0.3214%
+./bin/play.rb ./players/248.rb   ./players/250.rb 0
+ROUND :  161
+./players/248.rb HIT RATE : 0.1852%, MISS RATE : 0.8025%, FIX RATE 0.3827%
+./players/250.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.3375%
+./bin/play.rb ./players/248.rb   ./players/247.rb 0
+ROUND :  173
+./players/248.rb HIT RATE : 0.1839%, MISS RATE : 0.8046%, FIX RATE 0.3793%
+./players/247.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.4651%
+./bin/play.rb ./players/251.rb   ./players/243.rb 0
+ROUND :  155
+./players/251.rb HIT RATE : 0.1667%, MISS RATE : 0.8205%, FIX RATE 0.3718%
+./players/243.rb HIT RATE : 0.2208%, MISS RATE : 0.7922%, FIX RATE 0.5195%
+./bin/play.rb ./players/245.rb   ./players/256.rb 0
+ROUND :  174
+./players/245.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.5287%
+./players/256.rb HIT RATE : 0.1724%, MISS RATE : 0.8276%, FIX RATE 0.4138%
+./bin/play.rb ./players/257.rb   ./players/248.rb 0
+ROUND :  186
+./players/257.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.4409%
+./players/248.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.3871%
+./bin/play.rb ./players/257.rb   ./players/256.rb 0
+ROUND :  186
+./players/257.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.4409%
+./players/256.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.4516%
+./bin/play.rb ./players/249.rb   ./players/250.rb 0
+ROUND :  161
+./players/249.rb HIT RATE : 0.1728%, MISS RATE : 0.8148%, FIX RATE 0.2840%
+./players/250.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.3375%
+./bin/play.rb ./players/248.rb   ./players/246.rb 0
+ROUND :  195
+./players/248.rb HIT RATE : 0.1633%, MISS RATE : 0.8265%, FIX RATE 0.4082%
+./players/246.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.5361%
+./bin/play.rb ./players/258.rb   ./players/259.rb 0
+ROUND :  192
+./players/258.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.5208%
+./players/259.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.3438%
+./crossover 249 242 261 262
+./crossover 241 252 263 264
+./crossover 246 256 265 266
+./crossover 259 251 267 268
+./crossover 241 260 269 270
+./crossover 259 250 271 272
+./crossover 248 251 273 274
+./crossover 256 248 275 276
+./crossover 257 249 277 278
+./crossover 248 259 279 280
+GENERATION :  13
+POPULATION :  [261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280]
+./bin/play.rb ./players/274.rb   ./players/263.rb 0
+ROUND :  148
+./players/274.rb HIT RATE : 0.2297%, MISS RATE : 0.7703%, FIX RATE 0.5270%
+./players/263.rb HIT RATE : 0.1216%, MISS RATE : 0.8784%, FIX RATE 0.5541%
+./bin/play.rb ./players/266.rb   ./players/275.rb 0
+ROUND :  173
+./players/266.rb HIT RATE : 0.1724%, MISS RATE : 0.8161%, FIX RATE 0.5287%
+./players/275.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.5581%
+./bin/play.rb ./players/261.rb   ./players/263.rb 0
+ROUND :  191
+./players/261.rb HIT RATE : 0.1458%, MISS RATE : 0.8438%, FIX RATE 0.5625%
+./players/263.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.5684%
+./bin/play.rb ./players/275.rb   ./players/277.rb 0
+ROUND :  178
+./players/275.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.5618%
+./players/277.rb HIT RATE : 0.1461%, MISS RATE : 0.8539%, FIX RATE 0.5281%
+./bin/play.rb ./players/277.rb   ./players/276.rb 0
+ROUND :  197
+./players/277.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.5556%
+./players/276.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.4592%
+./bin/play.rb ./players/261.rb   ./players/263.rb 0
+ROUND :  191
+./players/261.rb HIT RATE : 0.1458%, MISS RATE : 0.8438%, FIX RATE 0.5625%
+./players/263.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.5684%
+./bin/play.rb ./players/271.rb   ./players/270.rb 0
+ROUND :  129
+./players/271.rb HIT RATE : 0.2154%, MISS RATE : 0.7692%, FIX RATE 0.7846%
+./players/270.rb HIT RATE : 0.2656%, MISS RATE : 0.7500%, FIX RATE 0.5469%
+./bin/play.rb ./players/264.rb   ./players/277.rb 0
+ROUND :  197
+./players/264.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.8687%
+./players/277.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.5510%
+./bin/play.rb ./players/273.rb   ./players/269.rb 0
+ROUND :  194
+./players/273.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.2784%
+./players/269.rb HIT RATE : 0.1649%, MISS RATE : 0.8351%, FIX RATE 0.3608%
+./bin/play.rb ./players/263.rb   ./players/268.rb 0
+ROUND :  192
+./players/263.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.5625%
+./players/268.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.6146%
+./bin/play.rb ./players/271.rb   ./players/275.rb 0
+ROUND :  162
+./players/271.rb HIT RATE : 0.2099%, MISS RATE : 0.7901%, FIX RATE 0.8272%
+./players/275.rb HIT RATE : 0.1975%, MISS RATE : 0.8025%, FIX RATE 0.5556%
+./bin/play.rb ./players/277.rb   ./players/271.rb 0
+ROUND :  169
+./players/277.rb HIT RATE : 0.1294%, MISS RATE : 0.8588%, FIX RATE 0.5176%
+./players/271.rb HIT RATE : 0.2024%, MISS RATE : 0.8095%, FIX RATE 0.8333%
+./bin/play.rb ./players/266.rb   ./players/279.rb 0
+ROUND :  148
+./players/266.rb HIT RATE : 0.2297%, MISS RATE : 0.7703%, FIX RATE 0.5135%
+./players/279.rb HIT RATE : 0.1622%, MISS RATE : 0.8378%, FIX RATE 0.5541%
+./bin/play.rb ./players/272.rb   ./players/266.rb 0
+ROUND :  196
+./players/272.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.5000%
+./players/266.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.5306%
+./bin/play.rb ./players/271.rb   ./players/268.rb 0
+ROUND :  185
+./players/271.rb HIT RATE : 0.1290%, MISS RATE : 0.8602%, FIX RATE 0.8495%
+./players/268.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.6087%
+./bin/play.rb ./players/269.rb   ./players/265.rb 0
+ROUND :  187
+./players/269.rb HIT RATE : 0.1596%, MISS RATE : 0.8298%, FIX RATE 0.3511%
+./players/265.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.8065%
+./bin/play.rb ./players/261.rb   ./players/272.rb 0
+ROUND :  187
+./players/261.rb HIT RATE : 0.1489%, MISS RATE : 0.8404%, FIX RATE 0.5532%
+./players/272.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.5054%
+./bin/play.rb ./players/264.rb   ./players/277.rb 0
+ROUND :  197
+./players/264.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.8687%
+./players/277.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.5510%
+./bin/play.rb ./players/272.rb   ./players/274.rb 0
+ROUND :  137
+./players/272.rb HIT RATE : 0.1159%, MISS RATE : 0.8696%, FIX RATE 0.4783%
+./players/274.rb HIT RATE : 0.2500%, MISS RATE : 0.7647%, FIX RATE 0.5294%
+./bin/play.rb ./players/270.rb   ./players/269.rb 0
+ROUND :  189
+./players/270.rb HIT RATE : 0.1684%, MISS RATE : 0.8211%, FIX RATE 0.5684%
+./players/269.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.3511%
+./crossover 274 266 281 282
+./crossover 261 277 283 284
+./crossover 276 261 285 286
+./crossover 270 277 287 288
+./crossover 273 263 289 290
+./crossover 275 277 291 292
+./crossover 266 272 293 294
+./crossover 268 269 295 296
+./crossover 272 277 297 298
+./crossover 272 269 299 300
+GENERATION :  14
+POPULATION :  [281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300]
+./bin/play.rb ./players/293.rb   ./players/299.rb 0
+ROUND :  183
+./players/293.rb HIT RATE : 0.1739%, MISS RATE : 0.8152%, FIX RATE 0.5543%
+./players/299.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.2527%
+./bin/play.rb ./players/297.rb   ./players/287.rb 0
+ROUND :  176
+./players/297.rb HIT RATE : 0.1932%, MISS RATE : 0.8068%, FIX RATE 0.4886%
+./players/287.rb HIT RATE : 0.1591%, MISS RATE : 0.8409%, FIX RATE 0.4886%
+./bin/play.rb ./players/292.rb   ./players/294.rb 0
+ROUND :  199
+./players/292.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.5800%
+./players/294.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.5253%
+./bin/play.rb ./players/294.rb   ./players/293.rb 0
+ROUND :  162
+./players/294.rb HIT RATE : 0.2099%, MISS RATE : 0.7901%, FIX RATE 0.4815%
+./players/293.rb HIT RATE : 0.1728%, MISS RATE : 0.8272%, FIX RATE 0.5432%
+./bin/play.rb ./players/289.rb   ./players/294.rb 0
+ROUND :  187
+./players/289.rb HIT RATE : 0.1489%, MISS RATE : 0.8404%, FIX RATE 0.4574%
+./players/294.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.5054%
+./bin/play.rb ./players/285.rb   ./players/294.rb 0
+ROUND :  185
+./players/285.rb HIT RATE : 0.1720%, MISS RATE : 0.8172%, FIX RATE 0.4194%
+./players/294.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5109%
+./bin/play.rb ./players/290.rb   ./players/295.rb 0
+ROUND :  195
+./players/290.rb HIT RATE : 0.1531%, MISS RATE : 0.8367%, FIX RATE 0.5306%
+./players/295.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.4639%
+./bin/play.rb ./players/298.rb   ./players/287.rb 0
+ROUND :  194
+./players/298.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.5464%
+./players/287.rb HIT RATE : 0.1649%, MISS RATE : 0.8351%, FIX RATE 0.4948%
+./bin/play.rb ./players/292.rb   ./players/281.rb 0
+ROUND :  175
+./players/292.rb HIT RATE : 0.1364%, MISS RATE : 0.8523%, FIX RATE 0.5568%
+./players/281.rb HIT RATE : 0.1954%, MISS RATE : 0.8161%, FIX RATE 0.5287%
+./bin/play.rb ./players/294.rb   ./players/298.rb 0
+ROUND :  168
+./players/294.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.4881%
+./players/298.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.5119%
+./bin/play.rb ./players/298.rb   ./players/300.rb 0
+ROUND :  193
+./players/298.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.5464%
+./players/300.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.7083%
+./bin/play.rb ./players/296.rb   ./players/286.rb 0
+ROUND :  193
+./players/296.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.7113%
+./players/286.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.4583%
+./bin/play.rb ./players/288.rb   ./players/297.rb 0
+ROUND :  186
+./players/288.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.5699%
+./players/297.rb HIT RATE : 0.1505%, MISS RATE : 0.8495%, FIX RATE 0.5054%
+./bin/play.rb ./players/291.rb   ./players/290.rb 0
+ROUND :  155
+./players/291.rb HIT RATE : 0.1667%, MISS RATE : 0.8205%, FIX RATE 0.4872%
+./players/290.rb HIT RATE : 0.2208%, MISS RATE : 0.7922%, FIX RATE 0.5065%
+./bin/play.rb ./players/295.rb   ./players/290.rb 0
+ROUND :  196
+./players/295.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.4694%
+./players/290.rb HIT RATE : 0.1531%, MISS RATE : 0.8469%, FIX RATE 0.5306%
+./bin/play.rb ./players/294.rb   ./players/281.rb 0
+ROUND :  174
+./players/294.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.4943%
+./players/281.rb HIT RATE : 0.1149%, MISS RATE : 0.8851%, FIX RATE 0.5287%
+./bin/play.rb ./players/297.rb   ./players/282.rb 0
+ROUND :  172
+./players/297.rb HIT RATE : 0.1977%, MISS RATE : 0.8023%, FIX RATE 0.4884%
+./players/282.rb HIT RATE : 0.1395%, MISS RATE : 0.8605%, FIX RATE 0.5233%
+./bin/play.rb ./players/289.rb   ./players/294.rb 0
+ROUND :  187
+./players/289.rb HIT RATE : 0.1489%, MISS RATE : 0.8404%, FIX RATE 0.4574%
+./players/294.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.5054%
+./bin/play.rb ./players/286.rb   ./players/293.rb 0
+ROUND :  165
+./players/286.rb HIT RATE : 0.1446%, MISS RATE : 0.8434%, FIX RATE 0.4096%
+./players/293.rb HIT RATE : 0.2073%, MISS RATE : 0.8049%, FIX RATE 0.5488%
+./bin/play.rb ./players/295.rb   ./players/300.rb 0
+ROUND :  193
+./players/295.rb HIT RATE : 0.1443%, MISS RATE : 0.8454%, FIX RATE 0.4639%
+./players/300.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.7083%
+./bin/play.rb ./players/290.rb   ./players/289.rb 0
+ROUND :  164
+./players/290.rb HIT RATE : 0.2073%, MISS RATE : 0.7927%, FIX RATE 0.5122%
+./players/289.rb HIT RATE : 0.1341%, MISS RATE : 0.8659%, FIX RATE 0.4146%
+./crossover 299 287 301 302
+./crossover 294 289 303 304
+./crossover 285 295 305 306
+./crossover 287 281 307 308
+./crossover 294 298 309 310
+./crossover 286 297 311 312
+./crossover 291 295 313 314
+./crossover 294 297 315 316
+./crossover 289 286 317 318
+./crossover 295 289 319 320
+GENERATION :  15
+POPULATION :  [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320]
+./bin/play.rb ./players/311.rb   ./players/306.rb 0
+ROUND :  134
+./players/311.rb HIT RATE : 0.2537%, MISS RATE : 0.7463%, FIX RATE 0.3284%
+./players/306.rb HIT RATE : 0.2090%, MISS RATE : 0.7910%, FIX RATE 0.5373%
+./bin/play.rb ./players/314.rb   ./players/306.rb 0
+ROUND :  183
+./players/314.rb HIT RATE : 0.1304%, MISS RATE : 0.8587%, FIX RATE 0.5326%
+./players/306.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.5714%
+./bin/play.rb ./players/319.rb   ./players/311.rb 0
+ROUND :  188
+./players/319.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.6170%
+./players/311.rb HIT RATE : 0.1702%, MISS RATE : 0.8298%, FIX RATE 0.4468%
+./bin/play.rb ./players/315.rb   ./players/307.rb 0
+ROUND :  151
+./players/315.rb HIT RATE : 0.1579%, MISS RATE : 0.8289%, FIX RATE 0.4737%
+./players/307.rb HIT RATE : 0.2267%, MISS RATE : 0.7867%, FIX RATE 0.5867%
+./bin/play.rb ./players/302.rb   ./players/310.rb 0
+ROUND :  181
+./players/302.rb HIT RATE : 0.1319%, MISS RATE : 0.8571%, FIX RATE 0.4725%
+./players/310.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.4667%
+./bin/play.rb ./players/310.rb   ./players/311.rb 0
+ROUND :  133
+./players/310.rb HIT RATE : 0.1940%, MISS RATE : 0.7910%, FIX RATE 0.4179%
+./players/311.rb HIT RATE : 0.2576%, MISS RATE : 0.7576%, FIX RATE 0.3333%
+./bin/play.rb ./players/316.rb   ./players/302.rb 0
+ROUND :  174
+./players/316.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.4828%
+./players/302.rb HIT RATE : 0.1149%, MISS RATE : 0.8851%, FIX RATE 0.4713%
+./bin/play.rb ./players/318.rb   ./players/314.rb 0
+ROUND :  182
+./players/318.rb HIT RATE : 0.1868%, MISS RATE : 0.8132%, FIX RATE 0.4286%
+./players/314.rb HIT RATE : 0.1538%, MISS RATE : 0.8462%, FIX RATE 0.5385%
+./bin/play.rb ./players/309.rb   ./players/305.rb 0
+ROUND :  179
+./players/309.rb HIT RATE : 0.1778%, MISS RATE : 0.8111%, FIX RATE 0.8444%
+./players/305.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.5056%
+./bin/play.rb ./players/303.rb   ./players/314.rb 0
+ROUND :  192
+./players/303.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.5625%
+./players/314.rb HIT RATE : 0.1562%, MISS RATE : 0.8438%, FIX RATE 0.5312%
+./bin/play.rb ./players/317.rb   ./players/316.rb 0
+ROUND :  192
+./players/317.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.4688%
+./players/316.rb HIT RATE : 0.1458%, MISS RATE : 0.8542%, FIX RATE 0.5000%
+./bin/play.rb ./players/316.rb   ./players/314.rb 0
+ROUND :  186
+./players/316.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.5054%
+./players/314.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.5376%
+./bin/play.rb ./players/303.rb   ./players/310.rb 0
+ROUND :  194
+./players/303.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.5670%
+./players/310.rb HIT RATE : 0.1649%, MISS RATE : 0.8351%, FIX RATE 0.4639%
+./bin/play.rb ./players/307.rb   ./players/315.rb 0
+ROUND :  152
+./players/307.rb HIT RATE : 0.2237%, MISS RATE : 0.7763%, FIX RATE 0.5789%
+./players/315.rb HIT RATE : 0.1579%, MISS RATE : 0.8421%, FIX RATE 0.4737%
+./bin/play.rb ./players/311.rb   ./players/312.rb 0
+ROUND :  106
+./players/311.rb HIT RATE : 0.3208%, MISS RATE : 0.6792%, FIX RATE 0.3019%
+./players/312.rb HIT RATE : 0.1509%, MISS RATE : 0.8491%, FIX RATE 0.4340%
+./bin/play.rb ./players/302.rb   ./players/309.rb 0
+ROUND :  158
+./players/302.rb HIT RATE : 0.2152%, MISS RATE : 0.7848%, FIX RATE 0.4810%
+./players/309.rb HIT RATE : 0.1266%, MISS RATE : 0.8734%, FIX RATE 0.8228%
+./bin/play.rb ./players/301.rb   ./players/303.rb 0
+ROUND :  190
+./players/301.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.4842%
+./players/303.rb HIT RATE : 0.1684%, MISS RATE : 0.8316%, FIX RATE 0.5579%
+./bin/play.rb ./players/308.rb   ./players/307.rb 0
+ROUND :  194
+./players/308.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.5258%
+./players/307.rb HIT RATE : 0.1649%, MISS RATE : 0.8351%, FIX RATE 0.6186%
+./bin/play.rb ./players/317.rb   ./players/302.rb 0
+ROUND :  197
+./players/317.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.4848%
+./players/302.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.5000%
+./bin/play.rb ./players/317.rb   ./players/304.rb 0
+ROUND :  167
+./players/317.rb HIT RATE : 0.1786%, MISS RATE : 0.8095%, FIX RATE 0.4167%
+./players/304.rb HIT RATE : 0.2048%, MISS RATE : 0.8072%, FIX RATE 0.4699%
+./bin/play.rb ./players/316.rb   ./players/317.rb 0
+ROUND :  191
+./players/316.rb HIT RATE : 0.1458%, MISS RATE : 0.8438%, FIX RATE 0.5000%
+./players/317.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.4632%
+./bin/play.rb ./players/302.rb   ./players/301.rb 0
+ROUND :  187
+./players/302.rb HIT RATE : 0.1702%, MISS RATE : 0.8191%, FIX RATE 0.4894%
+./players/301.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.4731%
+./crossover 311 314 321 322
+./crossover 311 315 323 324
+./crossover 310 311 325 326
+./crossover 302 318 327 328
+./crossover 305 314 329 330
+./crossover 317 316 331 332
+./crossover 310 315 333 334
+./crossover 311 302 335 336
+./crossover 301 308 337 338
+./crossover 317 301 339 340
+GENERATION :  16
+POPULATION :  [321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340]
+./bin/play.rb ./players/334.rb   ./players/326.rb 0
+ROUND :  195
+./players/334.rb HIT RATE : 0.1531%, MISS RATE : 0.8367%, FIX RATE 0.5306%
+./players/326.rb HIT RATE : 0.1753%, MISS RATE : 0.8351%, FIX RATE 0.3402%
+./bin/play.rb ./players/338.rb   ./players/321.rb 0
+ROUND :  178
+./players/338.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.3258%
+./players/321.rb HIT RATE : 0.1798%, MISS RATE : 0.8202%, FIX RATE 0.4719%
+./bin/play.rb ./players/330.rb   ./players/321.rb 0
+ROUND :  196
+./players/330.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.4898%
+./players/321.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.5000%
+./bin/play.rb ./players/333.rb   ./players/330.rb 0
+ROUND :  188
+./players/333.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.4787%
+./players/330.rb HIT RATE : 0.1596%, MISS RATE : 0.8404%, FIX RATE 0.4787%
+./bin/play.rb ./players/328.rb   ./players/337.rb 0
+ROUND :  179
+./players/328.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.4444%
+./players/337.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.6067%
+./bin/play.rb ./players/328.rb   ./players/332.rb 0
+ROUND :  193
+./players/328.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.4742%
+./players/332.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.7292%
+./bin/play.rb ./players/326.rb   ./players/334.rb 0
+ROUND :  196
+./players/326.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.3469%
+./players/334.rb HIT RATE : 0.1531%, MISS RATE : 0.8469%, FIX RATE 0.5306%
+./bin/play.rb ./players/331.rb   ./players/329.rb 0
+ROUND :  156
+./players/331.rb HIT RATE : 0.2179%, MISS RATE : 0.7821%, FIX RATE 0.4872%
+./players/329.rb HIT RATE : 0.1410%, MISS RATE : 0.8590%, FIX RATE 0.6795%
+./bin/play.rb ./players/329.rb   ./players/324.rb 0
+ROUND :  140
+./players/329.rb HIT RATE : 0.2429%, MISS RATE : 0.7571%, FIX RATE 0.6429%
+./players/324.rb HIT RATE : 0.1571%, MISS RATE : 0.8429%, FIX RATE 0.6571%
+./bin/play.rb ./players/326.rb   ./players/335.rb 0
+ROUND :  196
+./players/326.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.3469%
+./players/335.rb HIT RATE : 0.1531%, MISS RATE : 0.8469%, FIX RATE 0.4388%
+./bin/play.rb ./players/338.rb   ./players/330.rb 0
+ROUND :  179
+./players/338.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.3333%
+./players/330.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4831%
+./bin/play.rb ./players/340.rb   ./players/325.rb 0
+ROUND :  158
+./players/340.rb HIT RATE : 0.2152%, MISS RATE : 0.7848%, FIX RATE 0.2278%
+./players/325.rb HIT RATE : 0.1772%, MISS RATE : 0.8228%, FIX RATE 0.1392%
+./bin/play.rb ./players/331.rb   ./players/330.rb 0
+ROUND :  187
+./players/331.rb HIT RATE : 0.1702%, MISS RATE : 0.8191%, FIX RATE 0.4894%
+./players/330.rb HIT RATE : 0.1828%, MISS RATE : 0.8280%, FIX RATE 0.4731%
+./bin/play.rb ./players/325.rb   ./players/334.rb 0
+ROUND :  183
+./players/325.rb HIT RATE : 0.1522%, MISS RATE : 0.8370%, FIX RATE 0.1304%
+./players/334.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.5385%
+./bin/play.rb ./players/334.rb   ./players/336.rb 0
+ROUND :  190
+./players/334.rb HIT RATE : 0.1789%, MISS RATE : 0.8211%, FIX RATE 0.5368%
+./players/336.rb HIT RATE : 0.1579%, MISS RATE : 0.8421%, FIX RATE 0.3158%
+./bin/play.rb ./players/340.rb   ./players/326.rb 0
+ROUND :  172
+./players/340.rb HIT RATE : 0.1977%, MISS RATE : 0.8023%, FIX RATE 0.2558%
+./players/326.rb HIT RATE : 0.1628%, MISS RATE : 0.8372%, FIX RATE 0.2907%
+./bin/play.rb ./players/323.rb   ./players/335.rb 0
+ROUND :  174
+./players/323.rb HIT RATE : 0.1954%, MISS RATE : 0.8046%, FIX RATE 0.4943%
+./players/335.rb HIT RATE : 0.1609%, MISS RATE : 0.8391%, FIX RATE 0.4138%
+./bin/play.rb ./players/330.rb   ./players/328.rb 0
+ROUND :  173
+./players/330.rb HIT RATE : 0.1609%, MISS RATE : 0.8276%, FIX RATE 0.4828%
+./players/328.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.4302%
+./bin/play.rb ./players/338.rb   ./players/330.rb 0
+ROUND :  179
+./players/338.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.3333%
+./players/330.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4831%
+./bin/play.rb ./players/334.rb   ./players/333.rb 0
+ROUND :  171
+./players/334.rb HIT RATE : 0.1744%, MISS RATE : 0.8140%, FIX RATE 0.5349%
+./players/333.rb HIT RATE : 0.2000%, MISS RATE : 0.8118%, FIX RATE 0.4706%
+./bin/play.rb ./players/337.rb   ./players/339.rb 0
+ROUND :  156
+./players/337.rb HIT RATE : 0.2179%, MISS RATE : 0.7821%, FIX RATE 0.5769%
+./players/339.rb HIT RATE : 0.1026%, MISS RATE : 0.8974%, FIX RATE 0.6795%
+./crossover 326 338 341 342
+./crossover 330 328 343 344
+./crossover 328 326 345 346
+./crossover 331 329 347 348
+./crossover 326 338 349 350
+./crossover 325 330 351 352
+./crossover 325 336 353 354
+./crossover 340 335 355 356
+./crossover 328 338 357 358
+./crossover 333 337 359 360
+GENERATION :  17
+POPULATION :  [341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360]
+./bin/play.rb ./players/356.rb   ./players/344.rb 0
+ROUND :  193
+./players/356.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.5258%
+./players/344.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.5729%
+./bin/play.rb ./players/358.rb   ./players/351.rb 0
+ROUND :  192
+./players/358.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.3438%
+./players/351.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.4583%
+./bin/play.rb ./players/355.rb   ./players/359.rb 0
+ROUND :  191
+./players/355.rb HIT RATE : 0.1667%, MISS RATE : 0.8229%, FIX RATE 0.4583%
+./players/359.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.5789%
+./bin/play.rb ./players/346.rb   ./players/354.rb 0
+ROUND :  193
+./players/346.rb HIT RATE : 0.1546%, MISS RATE : 0.8351%, FIX RATE 0.4124%
+./players/354.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.5000%
+./bin/play.rb ./players/342.rb   ./players/355.rb 0
+ROUND :  185
+./players/342.rb HIT RATE : 0.1505%, MISS RATE : 0.8387%, FIX RATE 0.5376%
+./players/355.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.4565%
+./bin/play.rb ./players/358.rb   ./players/349.rb 0
+ROUND :  191
+./players/358.rb HIT RATE : 0.1562%, MISS RATE : 0.8333%, FIX RATE 0.3438%
+./players/349.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.5158%
+./bin/play.rb ./players/344.rb   ./players/346.rb 0
+ROUND :  148
+./players/344.rb HIT RATE : 0.2297%, MISS RATE : 0.7703%, FIX RATE 0.5541%
+./players/346.rb HIT RATE : 0.1486%, MISS RATE : 0.8514%, FIX RATE 0.3784%
+./bin/play.rb ./players/359.rb   ./players/354.rb 0
+ROUND :  179
+./players/359.rb HIT RATE : 0.1667%, MISS RATE : 0.8222%, FIX RATE 0.5667%
+./players/354.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4944%
+./bin/play.rb ./players/348.rb   ./players/347.rb 0
+ROUND :  181
+./players/348.rb HIT RATE : 0.1758%, MISS RATE : 0.8132%, FIX RATE 0.7143%
+./players/347.rb HIT RATE : 0.1889%, MISS RATE : 0.8222%, FIX RATE 0.4778%
+./bin/play.rb ./players/349.rb   ./players/358.rb 0
+ROUND :  192
+./players/349.rb HIT RATE : 0.1771%, MISS RATE : 0.8229%, FIX RATE 0.5208%
+./players/358.rb HIT RATE : 0.1562%, MISS RATE : 0.8438%, FIX RATE 0.3438%
+./bin/play.rb ./players/352.rb   ./players/344.rb 0
+ROUND :  185
+./players/352.rb HIT RATE : 0.1720%, MISS RATE : 0.8172%, FIX RATE 0.3011%
+./players/344.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5652%
+./bin/play.rb ./players/355.rb   ./players/356.rb 0
+ROUND :  178
+./players/355.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.4382%
+./players/356.rb HIT RATE : 0.1685%, MISS RATE : 0.8315%, FIX RATE 0.4944%
+./bin/play.rb ./players/350.rb   ./players/344.rb 0
+ROUND :  161
+./players/350.rb HIT RATE : 0.1728%, MISS RATE : 0.8148%, FIX RATE 0.5679%
+./players/344.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.5625%
+./bin/play.rb ./players/346.rb   ./players/355.rb 0
+ROUND :  185
+./players/346.rb HIT RATE : 0.1720%, MISS RATE : 0.8172%, FIX RATE 0.3871%
+./players/355.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.4565%
+./bin/play.rb ./players/358.rb   ./players/352.rb 0
+ROUND :  186
+./players/358.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.3226%
+./players/352.rb HIT RATE : 0.1613%, MISS RATE : 0.8387%, FIX RATE 0.3011%
+./bin/play.rb ./players/356.rb   ./players/355.rb 0
+ROUND :  177
+./players/356.rb HIT RATE : 0.1685%, MISS RATE : 0.8202%, FIX RATE 0.4944%
+./players/355.rb HIT RATE : 0.1932%, MISS RATE : 0.8182%, FIX RATE 0.4318%
+./bin/play.rb ./players/358.rb   ./players/345.rb 0
+ROUND :  194
+./players/358.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.3505%
+./players/345.rb HIT RATE : 0.1649%, MISS RATE : 0.8351%, FIX RATE 0.5361%
+./bin/play.rb ./players/355.rb   ./players/351.rb 0
+ROUND :  173
+./players/355.rb HIT RATE : 0.1609%, MISS RATE : 0.8276%, FIX RATE 0.4253%
+./players/351.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.4302%
+./bin/play.rb ./players/350.rb   ./players/341.rb 0
+ROUND :  180
+./players/350.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.5556%
+./players/341.rb HIT RATE : 0.1556%, MISS RATE : 0.8444%, FIX RATE 0.5667%
+./bin/play.rb ./players/357.rb   ./players/341.rb 0
+ROUND :  198
+./players/357.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.5758%
+./players/341.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.5859%
+./crossover 356 358 361 362
+./crossover 355 346 363 364
+./crossover 355 358 365 366
+./crossover 346 354 367 368
+./crossover 347 358 369 370
+./crossover 352 355 371 372
+./crossover 344 346 373 374
+./crossover 352 355 375 376
+./crossover 358 355 377 378
+./crossover 350 357 379 380
+GENERATION :  18
+POPULATION :  [361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380]
+./bin/play.rb ./players/378.rb   ./players/380.rb 0
+ROUND :  157
+./players/378.rb HIT RATE : 0.1772%, MISS RATE : 0.8101%, FIX RATE 0.8987%
+./players/380.rb HIT RATE : 0.2179%, MISS RATE : 0.7949%, FIX RATE 0.4231%
+./bin/play.rb ./players/373.rb   ./players/364.rb 0
+ROUND :  175
+./players/373.rb HIT RATE : 0.1818%, MISS RATE : 0.8068%, FIX RATE 0.9091%
+./players/364.rb HIT RATE : 0.1954%, MISS RATE : 0.8161%, FIX RATE 0.5287%
+./bin/play.rb ./players/362.rb   ./players/361.rb 0
+ROUND :  189
+./players/362.rb HIT RATE : 0.1474%, MISS RATE : 0.8421%, FIX RATE 0.4421%
+./players/361.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.8404%
+./bin/play.rb ./players/363.rb   ./players/364.rb 0
+ROUND :  182
+./players/363.rb HIT RATE : 0.1868%, MISS RATE : 0.8132%, FIX RATE 0.4286%
+./players/364.rb HIT RATE : 0.1538%, MISS RATE : 0.8462%, FIX RATE 0.5495%
+./bin/play.rb ./players/377.rb   ./players/380.rb 0
+ROUND :  137
+./players/377.rb HIT RATE : 0.1594%, MISS RATE : 0.8261%, FIX RATE 0.6377%
+./players/380.rb HIT RATE : 0.2500%, MISS RATE : 0.7647%, FIX RATE 0.3824%
+./bin/play.rb ./players/370.rb   ./players/377.rb 0
+ROUND :  198
+./players/370.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.4949%
+./players/377.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.7374%
+./bin/play.rb ./players/374.rb   ./players/370.rb 0
+ROUND :  194
+./players/374.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.5361%
+./players/370.rb HIT RATE : 0.1649%, MISS RATE : 0.8351%, FIX RATE 0.4948%
+./bin/play.rb ./players/368.rb   ./players/372.rb 0
+ROUND :  191
+./players/368.rb HIT RATE : 0.1667%, MISS RATE : 0.8229%, FIX RATE 0.6146%
+./players/372.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.5368%
+./bin/play.rb ./players/375.rb   ./players/362.rb 0
+ROUND :  194
+./players/375.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.6186%
+./players/362.rb HIT RATE : 0.1546%, MISS RATE : 0.8454%, FIX RATE 0.4536%
+./bin/play.rb ./players/365.rb   ./players/368.rb 0
+ROUND :  179
+./players/365.rb HIT RATE : 0.1444%, MISS RATE : 0.8444%, FIX RATE 0.4444%
+./players/368.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.6067%
+./bin/play.rb ./players/369.rb   ./players/375.rb 0
+ROUND :  178
+./players/369.rb HIT RATE : 0.1910%, MISS RATE : 0.8090%, FIX RATE 0.5618%
+./players/375.rb HIT RATE : 0.1685%, MISS RATE : 0.8315%, FIX RATE 0.6067%
+./bin/play.rb ./players/362.rb   ./players/379.rb 0
+ROUND :  184
+./players/362.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.4348%
+./players/379.rb HIT RATE : 0.1739%, MISS RATE : 0.8261%, FIX RATE 0.6957%
+./bin/play.rb ./players/370.rb   ./players/371.rb 0
+ROUND :  175
+./players/370.rb HIT RATE : 0.1477%, MISS RATE : 0.8409%, FIX RATE 0.4886%
+./players/371.rb HIT RATE : 0.1954%, MISS RATE : 0.8161%, FIX RATE 0.5632%
+./bin/play.rb ./players/371.rb   ./players/363.rb 0
+ROUND :  183
+./players/371.rb HIT RATE : 0.1630%, MISS RATE : 0.8261%, FIX RATE 0.5543%
+./players/363.rb HIT RATE : 0.1868%, MISS RATE : 0.8242%, FIX RATE 0.4286%
+./bin/play.rb ./players/367.rb   ./players/374.rb 0
+ROUND :  199
+./players/367.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.5700%
+./players/374.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.5354%
+./bin/play.rb ./players/367.rb   ./players/368.rb 0
+ROUND :  173
+./players/367.rb HIT RATE : 0.1839%, MISS RATE : 0.8046%, FIX RATE 0.5287%
+./players/368.rb HIT RATE : 0.1977%, MISS RATE : 0.8140%, FIX RATE 0.6047%
+./bin/play.rb ./players/376.rb   ./players/362.rb 0
+ROUND :  184
+./players/376.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.6957%
+./players/362.rb HIT RATE : 0.1413%, MISS RATE : 0.8587%, FIX RATE 0.4348%
+./bin/play.rb ./players/367.rb   ./players/364.rb 0
+ROUND :  193
+./players/367.rb HIT RATE : 0.1649%, MISS RATE : 0.8247%, FIX RATE 0.5567%
+./players/364.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.5521%
+./bin/play.rb ./players/374.rb   ./players/369.rb 0
+ROUND :  188
+./players/374.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.5319%
+./players/369.rb HIT RATE : 0.1702%, MISS RATE : 0.8298%, FIX RATE 0.5745%
+./bin/play.rb ./players/379.rb   ./players/372.rb 0
+ROUND :  176
+./players/379.rb HIT RATE : 0.1932%, MISS RATE : 0.8068%, FIX RATE 0.6818%
+./players/372.rb HIT RATE : 0.1591%, MISS RATE : 0.8409%, FIX RATE 0.5341%
+./crossover 380 364 381 382
+./crossover 362 363 383 384
+./crossover 380 370 385 386
+./crossover 370 372 387 388
+./crossover 362 365 389 390
+./crossover 369 362 391 392
+./crossover 370 363 393 394
+./crossover 374 367 395 396
+./crossover 362 364 397 398
+./crossover 374 372 399 400
+GENERATION :  19
+POPULATION :  [381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400]
+./bin/play.rb ./players/392.rb   ./players/383.rb 0
+ROUND :  194
+./players/392.rb HIT RATE : 0.1753%, MISS RATE : 0.8247%, FIX RATE 0.3505%
+./players/383.rb HIT RATE : 0.1649%, MISS RATE : 0.8351%, FIX RATE 0.4536%
+./bin/play.rb ./players/391.rb   ./players/388.rb 0
+ROUND :  197
+./players/391.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.6970%
+./players/388.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.3469%
+./bin/play.rb ./players/389.rb   ./players/384.rb 0
+ROUND :  193
+./players/389.rb HIT RATE : 0.1546%, MISS RATE : 0.8351%, FIX RATE 0.5052%
+./players/384.rb HIT RATE : 0.1771%, MISS RATE : 0.8333%, FIX RATE 0.5312%
+./bin/play.rb ./players/391.rb   ./players/400.rb 0
+ROUND :  189
+./players/391.rb HIT RATE : 0.1474%, MISS RATE : 0.8421%, FIX RATE 0.6947%
+./players/400.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.5319%
+./bin/play.rb ./players/391.rb   ./players/387.rb 0
+ROUND :  197
+./players/391.rb HIT RATE : 0.1616%, MISS RATE : 0.8283%, FIX RATE 0.6970%
+./players/387.rb HIT RATE : 0.1735%, MISS RATE : 0.8367%, FIX RATE 0.4898%
+./bin/play.rb ./players/390.rb   ./players/381.rb 0
+ROUND :  179
+./players/390.rb HIT RATE : 0.1778%, MISS RATE : 0.8111%, FIX RATE 0.3000%
+./players/381.rb HIT RATE : 0.1910%, MISS RATE : 0.8202%, FIX RATE 0.4719%
+./bin/play.rb ./players/386.rb   ./players/385.rb 0
+ROUND :  184
+./players/386.rb HIT RATE : 0.1848%, MISS RATE : 0.8152%, FIX RATE 0.4783%
+./players/385.rb HIT RATE : 0.1739%, MISS RATE : 0.8261%, FIX RATE 0.5326%
+./bin/play.rb ./players/395.rb   ./players/382.rb 0
+ROUND :  199
+./players/395.rb HIT RATE : 0.1600%, MISS RATE : 0.8300%, FIX RATE 0.5400%
+./players/382.rb HIT RATE : 0.1717%, MISS RATE : 0.8384%, FIX RATE 0.8586%
+./bin/play.rb ./players/388.rb   ./players/393.rb 0
+ROUND :  198
+./players/388.rb HIT RATE : 0.1717%, MISS RATE : 0.8283%, FIX RATE 0.3535%
+./players/393.rb HIT RATE : 0.1616%, MISS RATE : 0.8384%, FIX RATE 0.6566%
+./bin/play.rb ./players/396.rb   ./players/384.rb 0
+ROUND :  186
+./players/396.rb HIT RATE : 0.1828%, MISS RATE : 0.8172%, FIX RATE 0.5699%
+./players/384.rb HIT RATE : 0.1720%, MISS RATE : 0.8280%, FIX RATE 0.5376%
+./bin/play.rb ./players/389.rb   ./players/388.rb 0
+ROUND :  196
+./players/389.rb HIT RATE : 0.1735%, MISS RATE : 0.8265%, FIX RATE 0.5102%
+./players/388.rb HIT RATE : 0.1633%, MISS RATE : 0.8367%, FIX RATE 0.3469%
+./bin/play.rb ./players/398.rb   ./players/396.rb 0
+ROUND :  185
+./players/398.rb HIT RATE : 0.1720%, MISS RATE : 0.8172%, FIX RATE 0.3871%
+./players/396.rb HIT RATE : 0.1848%, MISS RATE : 0.8261%, FIX RATE 0.5652%
+./bin/play.rb ./players/384.rb   ./players/397.rb 0
+ROUND :  161
+./players/384.rb HIT RATE : 0.1728%, MISS RATE : 0.8148%, FIX RATE 0.5185%
+./players/397.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.5875%
+./bin/play.rb ./players/390.rb   ./players/382.rb 0
+ROUND :  188
+./players/390.rb HIT RATE : 0.1809%, MISS RATE : 0.8191%, FIX RATE 0.3191%
+./players/382.rb HIT RATE : 0.1702%, MISS RATE : 0.8298%, FIX RATE 0.8511%
+./bin/play.rb ./players/389.rb   ./players/382.rb 0
+ROUND :  180
+./players/389.rb HIT RATE : 0.1889%, MISS RATE : 0.8111%, FIX RATE 0.4889%
+./players/382.rb HIT RATE : 0.1667%, MISS RATE : 0.8333%, FIX RATE 0.8444%
+./bin/play.rb ./players/390.rb   ./players/384.rb 0
+ROUND :  162
+./players/390.rb HIT RATE : 0.2099%, MISS RATE : 0.7901%, FIX RATE 0.2840%
+./players/384.rb HIT RATE : 0.1605%, MISS RATE : 0.8395%, FIX RATE 0.5185%
+./bin/play.rb ./players/389.rb   ./players/395.rb 0
+ROUND :  189
+./players/389.rb HIT RATE : 0.1579%, MISS RATE : 0.8316%, FIX RATE 0.5053%
+./players/395.rb HIT RATE : 0.1809%, MISS RATE : 0.8298%, FIX RATE 0.5213%
+./bin/play.rb ./players/384.rb   ./players/388.rb 0
+ROUND :  191
+./players/384.rb HIT RATE : 0.1562%, MISS RATE : 0.8333%, FIX RATE 0.5312%
+./players/388.rb HIT RATE : 0.1789%, MISS RATE : 0.8316%, FIX RATE 0.3263%
+./bin/play.rb ./players/392.rb   ./players/399.rb 0
+ROUND :  168
+./players/392.rb HIT RATE : 0.2024%, MISS RATE : 0.7976%, FIX RATE 0.3214%
+./players/399.rb HIT RATE : 0.1548%, MISS RATE : 0.8452%, FIX RATE 0.5238%
+./bin/play.rb ./players/398.rb   ./players/385.rb 0
+ROUND :  161
+./players/398.rb HIT RATE : 0.1481%, MISS RATE : 0.8395%, FIX RATE 0.3827%
+./players/385.rb HIT RATE : 0.2125%, MISS RATE : 0.8000%, FIX RATE 0.5250%
+./crossover 392 388 401 402
+./crossover 389 400 403 404
+./crossover 387 390 405 406
+./crossover 386 395 407 408
+./crossover 388 384 409 410
+./crossover 388 398 411 412
+./crossover 384 390 413 414
+./crossover 389 390 415 416
+./crossover 389 388 417 418
+./crossover 392 398 419 420
