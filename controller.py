@@ -4,51 +4,118 @@ import sys
 import os
 import random
 import time
+import queue
 
-GENERATION_COUNT = 20
+GENERATION_COUNT = 1
+PARALLEL_TASK = 7
+PORT_START = 30001
 
+# Queue Initialize
+PORT_QUEUE = queue.Queue(PARALLEL_TASK)
+for p in range(PORT_START, PORT_START + PARALLEL_TASK * 3, 3):
+    PORT_QUEUE.put(p, True)
+TASK_TABLE = {}
 
 class CompeteTask:
-    def __init__(pid, port):
+    def __init__(self, pid, port, read, contestants):
+        self.contestants = contestants
         self.pid = pid
         self.port = port
-        self.read_handle
+        self.read_fd = read
+        self.is_complete = False
+        self.winner = self.high_hit_rate
+        self.couple_pid = 0
+
+    def read(self):
+        self.read_fo = os.fdopen(self.read_fd)
+        data = self.read_fo.read().split('\n')
+        self.round = eval(data[0])
+        self.fired = eval(data[1])
+        self.hit = eval(data[2])
+        self.miss = eval(data[3])
+        self.unknown = eval(data[4])
+        self.fixed = eval(data[5])
+        self.win = int(data[6].strip('\n.rb '))
+        self.is_complete = True
+
+    def close(self):
+        self.read_fo.close()
+
+    def show(self):
+        print('NAME\tROUND\tHIT\tMISS\tFIX\t')
+        print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (self.contestants[0], self.fired[0], \
+            self.hit[0]/self.fired[0], self.miss[0]/self.fired[0], self.fixed[0]/self.fired[0]))
+        print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (self.contestants[1], self.fired[1], \
+            self.hit[1]/self.fired[1], self.miss[1]/self.fired[1], self.fixed[1]/self.fired[1]))
+
+    def has_couple(self):
+        return self.couple_pid != 0
+
+    def couple(self):
+        return TASK_TABLE[self.couple_pid]
+
+    def high_hit_rate(self):
+        if self.hit[0]/self.fired[0] > self.hit[1]/self.fired[1]:
+            return self.contestants[0]
+        else:
+            return self.contestants[1]
+
+    def low_fixed(self):
+        if self.fixed[0]/self.fired[0] < self.fixed[1]/self.fired[1]:
+            return self.contestants[0]
+        else:
+            return self.contestants[1]
 
 def tournament(population, tournament_size):
     mating_pool = []
-    while len(mating_pool) < len(population) // 2:
-        parent1 = competition(*random.sample(population, tournament_size))
-        while True:
-            parent2 = competition(*random.sample(population, tournament_size))
-            if parent1 != parent2:
-                break
-        mating_pool.append((parent1, parent2))
+    for i in range(len(population) // 2):
+        while PORT_QUEUE.empty():
+            wait_complete(mating_pool, population, tournament_size)
+        port1 = PORT_QUEUE.get(True)
+        task1 = competition(port1, *random.sample(population, tournament_size))
+        TASK_TABLE[task1.pid] = task1
+        while PORT_QUEUE.empty():
+            wait_complete(mating_pool, population, tournament_size)
+        port2 = PORT_QUEUE.get(True)
+        task2 = competition(port2, *random.sample(population, tournament_size))
+        TASK_TABLE[task2.pid] = task2
+        TASK_TABLE[task1.pid].couple_pid = task2.pid
+        TASK_TABLE[task2.pid].couple_pid = task1.pid
+
+    while len(mating_pool) < len(population) // 2 or not PORT_QUEUE.full():
+        wait_complete(mating_pool, population, tournament_size)
         
     return mating_pool
 
-def competition(*contestants):
+def wait_complete(mating_pool, population, tournament_size):
+    pid = os.wait()[0]
+    print('PORT ', TASK_TABLE[pid].port, ' PID ', pid, ' COMPLETE', file=sys.stderr)
+    TASK_TABLE[pid].read()
+    TASK_TABLE[pid].show()
+    TASK_TABLE[pid].close()
+    PORT_QUEUE.put(TASK_TABLE[pid].port, True)
+    if TASK_TABLE[pid].has_couple() and TASK_TABLE[pid].couple().is_complete:
+        parent1 = TASK_TABLE[pid].winner()
+        parent2 = TASK_TABLE[pid].couple().winner()
+        if parent1 == parent2:
+            port = PORT_QUEUE.get(True)
+            task = competition(port, *random.sample(population, tournament_size))
+            task.couple_pid = pid
+            TASK_TABLE[task.pid] = task
+            TASK_TABLE[pid].couple_pid = task.pid
+        else:
+            mating_pool.append([parent1, parent2])
+
+def competition(port, *contestants):
     r, w = os.pipe()
     pid = os.fork()
     if pid == 0:
         os.close(r)
         os.dup2(w, 1)
-        os.execl("./bin/play.rb", "./play.rb", name(contestants[0]), name(contestants[1]), '0')
+        os.execl("./bin/play.rb", "./play.rb", name(contestants[0]), name(contestants[1]), '0', str(port))
     os.close(w)
-    read = os.fdopen(r)
-    data = read.read().split('\n')
-    rnd, fired, hit, miss, unknown, fix = eval(data[0]), eval(data[1]), eval(data[2]), eval(data[3]), eval(data[4]), eval(data[5])
-    print('NAME\tROUND\tHIT\tMISS\tFIX\t', file=sys.stderr)
-    print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (contestants[0], fired[0], hit[0]/fired[0], miss[0]/fired[0], fix[0]/fired[0]), file=sys.stderr)
-    print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (contestants[1], fired[1], hit[1]/fired[1], miss[1]/fired[1], fix[1]/fired[1]), file=sys.stderr)
-
-    winner = ''
-    if fix[0]/fired[0] < fix[1]/fired[1]:
-        winner = contestants[0]
-    else:
-        winner = contestants[1]
-    os.close(r)
-    os.waitpid(pid, 0)
-    return winner
+    print('PORT ', port, ' PID ', pid, ' DELIVERED', file=sys.stderr)
+    return CompeteTask(pid, port, r, contestants)
 
 def mate(mating_pool):
     offspring = []
@@ -59,7 +126,7 @@ def mate(mating_pool):
         pid = os.fork()
         if pid == 0:
             os.execl('./crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2),'0')
-        print('%d %d => %d %d' %(pair[0], pair[1], offspring1, offspring2), file=sys.stderr)
+        print('%d %d => %d %d' %(pair[0], pair[1], offspring1, offspring2))
         wait_list.append(pid)
         offspring.extend([offspring1, offspring2])
     while len(wait_list) != 0:
@@ -88,8 +155,8 @@ if __name__ == '__main__':
     new_idx = make_index_generator(len(population))
 
     for i in range(GENERATION_COUNT):
-        print('Generation : ', i, file=sys.stderr)
-        print('Population : ', population, file=sys.stderr)
+        print('Generation : ', i)
+        print('Population : ', population)
         mating_pool = tournament(population, 2)
         offspring = mate(mating_pool)
         population = offspring
