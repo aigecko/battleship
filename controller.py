@@ -7,6 +7,7 @@ import time
 
 GENERATION_COUNT = 20
 
+
 class CompeteTask:
     def __init__(pid, port):
         self.pid = pid
@@ -32,14 +33,13 @@ def competition(*contestants):
         os.close(r)
         os.dup2(w, 1)
         os.execl("./bin/play.rb", "./play.rb", name(contestants[0]), name(contestants[1]), '0')
-    print("./bin/play.rb", name(contestants[0]), ' ', name(contestants[1]), '0')
     os.close(w)
     read = os.fdopen(r)
     data = read.read().split('\n')
     rnd, fired, hit, miss, unknown, fix = eval(data[0]), eval(data[1]), eval(data[2]), eval(data[3]), eval(data[4]), eval(data[5])
-    print('ROUND : ', rnd)
-    print(name(contestants[0]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%, FIX RATE %.4f%%' % (hit[0]/fired[0], miss[0]/fired[0], fix[0]/fired[0]))
-    print(name(contestants[1]), 'HIT RATE : %.4f%%, MISS RATE : %.4f%%, FIX RATE %.4f%%' % (hit[1]/fired[1], miss[1]/fired[1], fix[1]/fired[1]))
+    print('NAME\tROUND\tHIT\tMISS\tFIX\t', file=sys.stderr)
+    print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (contestants[0], fired[0], hit[0]/fired[0], miss[0]/fired[0], fix[0]/fired[0]), file=sys.stderr)
+    print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (contestants[1], fired[1], hit[1]/fired[1], miss[1]/fired[1], fix[1]/fired[1]), file=sys.stderr)
 
     winner = ''
     if fix[0]/fired[0] < fix[1]/fired[1]:
@@ -59,7 +59,7 @@ def mate(mating_pool):
         pid = os.fork()
         if pid == 0:
             os.execl('./crossover', './crossover', str(pair[0]), str(pair[1]), str(offspring1), str(offspring2),'0')
-        print('./crossover ' + str(pair[0]) + ' ' + str(pair[1]) + ' ' + str(offspring1) + ' ' + str(offspring2)+'0')
+        print('%d %d => %d %d' %(pair[0], pair[1], offspring1, offspring2), file=sys.stderr)
         wait_list.append(pid)
         offspring.extend([offspring1, offspring2])
     while len(wait_list) != 0:
@@ -88,8 +88,8 @@ if __name__ == '__main__':
     new_idx = make_index_generator(len(population))
 
     for i in range(GENERATION_COUNT):
-        print('GENERATION : ', i)
-        print('POPULATION : ' , population)
+        print('Generation : ', i, file=sys.stderr)
+        print('Population : ', population, file=sys.stderr)
         mating_pool = tournament(population, 2)
         offspring = mate(mating_pool)
         population = offspring
