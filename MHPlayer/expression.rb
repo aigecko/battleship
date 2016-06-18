@@ -87,7 +87,7 @@ class S
         map<<[x,y,len,dir]
         3.times{|n|
           used<<[x-1,y+1-n]
-          used<<[x+1,y+1-n]
+          used<<[x+len,y+1-n]
         }
         len.times{|n|
           used<<[x+n,y]
@@ -107,7 +107,7 @@ class S
         map<<[x,y,len,dir]
         3.times{|n|
           used<<[x+1-n,y-1]
-          used<<[x+1-n,y+1]
+          used<<[x+1-n,y+len]
         }
         len.times{|n|
           used<<[x-1,y+n]
