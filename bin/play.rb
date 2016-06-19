@@ -73,7 +73,7 @@ begin
     p game.fired
     p game.report.map{|b| b.flatten.count :hit}.reverse
     p game.miss.reverse
-    p game.report.map{|b| b.flatten.count :unknown}
+    p game.report.map{|b| b.flatten.count :unknown}.reverse
     p game.fix_counts
 
     break if i == 1 && winners[0] == winners[1]
