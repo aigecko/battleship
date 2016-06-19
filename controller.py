@@ -5,6 +5,7 @@ import os
 import random
 import time
 import queue
+import statistics
 
 GENERATION_COUNT = 1
 PARALLEL_TASK = 7
@@ -26,27 +27,49 @@ class CompeteTask:
         self.winner = self.high_hit_rate
         self.couple_pid = 0
 
-    def read(self):
+    def open(self):
         self.read_fo = os.fdopen(self.read_fd)
+        return self
+
+    def read(self):
         data = self.read_fo.read().split('\n')
-        self.round = eval(data[0])
-        self.fired = eval(data[1])
-        self.hit = eval(data[2])
-        self.miss = eval(data[3])
-        self.unknown = eval(data[4])
-        self.fixed = eval(data[5])
+        rnd_lst, fired_lst, hit_lst, miss_lst, fixed_lst = [], [], [], [], []
+        r = 1
+        for i in range(0, len(data) - 2, 6):
+            rnd = eval(data[i])
+            fired = eval(data[i + 1])
+            hit = eval(data[i + 2])
+            miss = eval(data[i + 3])
+            fixed = eval(data[i + 5])
+            rnd_lst.append(rnd)
+            fired_lst.append([fired[(1 - r) // 2], fired[(1 + r)// 2]])
+            hit_lst.append([hit[(1 - r) // 2], hit[(1 + r)// 2]])
+            miss_lst.append([miss[(1 - r) // 2], miss[(1 + r)// 2]])
+            fixed_lst.append([fixed[(1 - r) // 2], fixed[(1 + r)// 2]])
+            r *= -1
+        hit_rate = [[hit_lst[i][0]/fired_lst[i][0], hit_lst[i][1]/fired_lst[i][1]] for i in range(len(fired_lst))]
+        miss_rate = [[miss_lst[i][0]/fired_lst[i][0], miss_lst[i][1]/fired_lst[i][1]] for i in range(len(fired_lst))]
+        fixed_rate = [[fixed_lst[i][0]/fired_lst[i][0], fixed_lst[i][1]/fired_lst[i][1]] for i in range(len(fired_lst))]
+
+        self.fired = [statistics.mean([i[0] for i in fired_lst]), statistics.mean(i[1] for i in fired_lst)]
+        self.hit = [statistics.mean([i[0] for i in hit_rate]), statistics.mean([i[1] for i in hit_rate])]
+        self.miss = [statistics.mean([i[0] for i in miss_rate]), statistics.mean([i[1] for i in miss_rate])]
+        self.fixed = [statistics.mean([i[0] for i in fixed_rate]), statistics.mean([i[1] for i in fixed_rate])]
         self.win = int(data[6].strip('\n.rb '))
         self.is_complete = True
+        return self
 
     def close(self):
         self.read_fo.close()
+        return self
 
     def show(self):
         print('NAME\tROUND\tHIT\tMISS\tFIX\t')
         print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (self.contestants[0], self.fired[0], \
-            self.hit[0]/self.fired[0], self.miss[0]/self.fired[0], self.fixed[0]/self.fired[0]))
+            self.hit[0], self.miss[0], self.fixed[0]))
         print('%d\t%d\t%.4f%%\t%.4f%%\t%.4f%%' % (self.contestants[1], self.fired[1], \
-            self.hit[1]/self.fired[1], self.miss[1]/self.fired[1], self.fixed[1]/self.fired[1]))
+            self.hit[1], self.miss[1], self.fixed[1]))
+        return self
 
     def has_couple(self):
         return self.couple_pid != 0
@@ -90,9 +113,7 @@ def tournament(population, tournament_size):
 def wait_complete(mating_pool, population, tournament_size):
     pid = os.wait()[0]
     print('PORT ', TASK_TABLE[pid].port, ' PID ', pid, ' COMPLETE', file=sys.stderr)
-    TASK_TABLE[pid].read()
-    TASK_TABLE[pid].show()
-    TASK_TABLE[pid].close()
+    TASK_TABLE[pid].open().read().show().close()
     PORT_QUEUE.put(TASK_TABLE[pid].port, True)
     if TASK_TABLE[pid].has_couple() and TASK_TABLE[pid].couple().is_complete:
         parent1 = TASK_TABLE[pid].winner()
