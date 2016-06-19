@@ -71,8 +71,8 @@ begin
      
     p game.round
     p game.fired
-    p game.report.map{|b| b.flatten.count :hit}
-    p game.miss
+    p game.report.map{|b| b.flatten.count :hit}.reverse
+    p game.miss.reverse
     p game.report.map{|b| b.flatten.count :unknown}
     p game.fix_counts
 
