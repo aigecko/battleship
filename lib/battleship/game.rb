@@ -2,13 +2,14 @@ require "battleship/board"
 
 module Battleship
   class Game
-    attr_accessor :round,:fired
+    attr_accessor :round,:fired,:miss
     def initialize(size, expected_fleet, *players)
       @state = build_initial_state(size, expected_fleet, players)
 
       @turn = 0
       @round = 0
       @fired = [0, 0]
+      @miss=[0, 0]
 
       @state.reverse.each do |player, opponent, board|
         unless board.valid?
@@ -32,6 +33,9 @@ module Battleship
         board.try([move[0]+1,move[1]-1])
         board.try([move[0]-1,move[1]+1])
         board.try([move[0]-1,move[1]-1])
+      end
+      if result==:miss
+        @miss[@turn]+=1
       end
 
       if result == :invalid
