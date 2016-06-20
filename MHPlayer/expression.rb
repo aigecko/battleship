@@ -66,6 +66,19 @@ class S
     }
     return arr
   end
+  def leaf(prev=nil)
+    @op==:Q and return self
+    node=list[0]
+    while node&&node.op!=:Q
+      node=node.a
+    end
+    return node
+  end
+  def length
+    @op==:Q and return 0
+    @op==:R and return @list[0].length
+    @list[0].length+1
+  end
   def self.ships(map,used,list)
     list.empty?  and return
     len=list.pop

@@ -21,7 +21,12 @@ if ARGV[4]
 else
   s1.flatten.reject{|s| s.op==:R }.shuffle.first.swap(
     s2.flatten.reject{|s| s.op==:R}.shuffle.first)
+
+  S.init(s1.leaf,5-s1.length) if s1.length<5
+  S.init(s2.leaf,5-s2.length) if s2.length<5
 end
+
+
 
 if 0.05<rand()
   str=s1
