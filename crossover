@@ -16,8 +16,8 @@ s2=Marshal.load(
     in2.match(/.*__END__\n([\S\n]+)/)[1].gsub!("\n","")))
 
 if ARGV[4]  
-  s1.flatten.reject{|s| s.op==:R||s.op==:Q }.shuffle.first.single_swap(
-    s2.flatten.reject{|s| s.op==:R||s.op==:Q }.shuffle.first)
+  s1.flatten.reject{|s| s.op==:R }.shuffle.first.single_swap(
+    s2.flatten.reject{|s| s.op==:R }.shuffle.first)
 else
   s1.flatten.reject{|s| s.op==:R }.shuffle.first.swap(
     s2.flatten.reject{|s| s.op==:R}.shuffle.first)
@@ -43,8 +43,7 @@ if 0.05>rand()
   s1.leaf.list=[]
 end
 if 0.05>rand()
-  head=s2.flatten.reject{|s| s.op==:R }.shuffle.first
-  str=head
+  str=s2
   ptr=str
   tmp=S.new(:Q)
   while(ptr.op!=:Q)
@@ -54,8 +53,8 @@ if 0.05>rand()
     ptr=str
   end
   ptr.list=tmp
-  head=str.list
-  s1.leaf.list=[]
+  s2=str.list
+  s2.leaf.list=[]
 end
 
 s1.write(out1,ARGV[2].to_i-1)
