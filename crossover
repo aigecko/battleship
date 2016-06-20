@@ -22,13 +22,13 @@ else
   s1.flatten.reject{|s| s.op==:R }.shuffle.first.swap(
     s2.flatten.reject{|s| s.op==:R}.shuffle.first)
 
-  S.init(s1.leaf,5-s1.length) if s1.length<5
-  S.init(s2.leaf,5-s2.length) if s2.length<5
+  S.init(s1.leaf,5-s1.length) while s1.length<5
+  S.init(s2.leaf,5-s2.length) while s2.length<5
 end
 
 
 
-if 0.05<rand()
+if 0.05>rand()
   str=s1
   ptr=str
   tmp=S.new(:Q)
@@ -41,8 +41,9 @@ if 0.05<rand()
   ptr.list=tmp
   s1=str.list
 end
-if 0.05<rand()
-  str=s2
+if 0.05>rand()
+  head=s2.flatten.reject{|s| s.op==:R }.shuffle.first
+  str=head
   ptr=str
   tmp=S.new(:Q)
   while(ptr.op!=:Q)
@@ -52,7 +53,7 @@ if 0.05<rand()
     ptr=str
   end
   ptr.list=tmp
-  s2=str.list
+  head=str.list
 end
 
 s1.write(out1,ARGV[2].to_i-1)
